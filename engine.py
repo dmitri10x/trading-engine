@@ -2,7 +2,8 @@
 """
 Dmitri's swing trading engine (runs on GitHub Actions).
 Reads : settings.json, held tickers from Airtable Positions (fallback tickers.json), POLYGON_API_KEY, AIRTABLE_TOKEN
-Writes: result.json + one row per mode in the Airtable "Engine" table (what Claude reads).
+Writes: result.json (full), summary.json + summary_<mode>.json (held + ideas only, what Claude reads),
+        and one row per mode in the Airtable "Engine" table.
 Rules : price above MA150, market cap > $1B, ATR% >= 4, high volume, stop = 1.5 ATR, R >= 2.
 """
 import json, os, sys, time, math, datetime as dt
@@ -133,17 +134,31 @@ def held_from_airtable():
         return [r["fields"].get("Ticker", "").split()[0] for r in j["records"] if r["fields"].get("Ticker")]
     return [p["symbol"] if isinstance(p, dict) else p for p in load("tickers.json", [])]
 
-def push_to_airtable(res, held):
-    """Upsert one Engine row per mode with a trimmed payload Claude can read through the Airtable MCP."""
+def slim_result(res, held):
+    """Trimmed result: only held tickers and idea tickers. Small enough for Claude to fetch from GitHub raw."""
     keep = set(held) | {i["symbol"] for i in res["ideas"]}
     slim = dict(res); slim["metrics"] = {t: m for t, m in res["metrics"].items() if t in keep}
     slim["alerts"] = [a for a in res["alerts"] if a.split()[0] in keep]
+    slim["held"] = held
+    return slim
+
+def push_to_airtable(res, slim):
+    """Upsert one Engine row per mode. Returns a status string (also stored in summary.json for debugging)."""
+    if not AT_TOKEN: return "no AIRTABLE_TOKEN secret"
     payload = json.dumps(slim, separators=(",", ":"))
     summary = f"{res['mode']} {res['as_of']} | {len(res['metrics'])} tickers | ideas {len(res['ideas'])} | alerts {len(slim['alerts'])} | market " + \
               ", ".join(f"{k} {v['chg1']:+.1f}%" for k, v in res["market"].items())
-    body = {"performUpsert": {"fieldsToMergeOn": ["Key"]}, "records": [{"fields": {"Key": res["mode"], "As Of": res["as_of"], "Summary": summary, "Payload": payload[:99000]}}]}
-    r = airtable("PATCH", AT_ENGINE, body)
-    print("airtable push:", "ok" if r else "failed", len(payload))
+    body = {"performUpsert": {"fieldsToMergeOn": ["Key"]}, "typecast": True,
+            "records": [{"fields": {"Key": res["mode"], "As Of": res["as_of"], "Summary": summary, "Payload": payload[:99000]}}]}
+    req = urllib.request.Request(f"https://api.airtable.com/v0/{AT_BASE}/{AT_ENGINE}", method="PATCH",
+                                 headers={"Authorization": f"Bearer {AT_TOKEN}", "Content-Type": "application/json"},
+                                 data=json.dumps(body).encode())
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r: json.load(r); return "ok"
+    except urllib.error.HTTPError as e:
+        return f"http {e.code}: {e.read()[:300].decode(errors='replace')}"
+    except Exception as e:
+        return f"error: {e}"
 
 def main():
     if not KEY:
@@ -185,8 +200,11 @@ def main():
     res["held_missing"] = [t for t in held if t not in res["metrics"]]
     res["api_calls"] = CALLS
     json.dump(res, open("result.json", "w"), indent=1)
-    push_to_airtable(res, held)
-    print("done", MODE, "tickers", len(res["metrics"]), "calls", CALLS)
+    slim = slim_result(res, held)
+    slim["airtable_status"] = push_to_airtable(res, slim)
+    json.dump(slim, open("summary.json", "w"), indent=1)
+    json.dump(slim, open(f"summary_{MODE}.json", "w"), indent=1)
+    print("done", MODE, "tickers", len(res["metrics"]), "calls", CALLS, "airtable:", slim["airtable_status"])
 
 if __name__ == "__main__":
     main()
