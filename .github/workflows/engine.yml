@@ -25,6 +25,7 @@ jobs:
       - name: run engine
         env:
           POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
         run: python3 engine.py ${{ steps.mode.outputs.mode }}
       - name: commit result
         run: |
