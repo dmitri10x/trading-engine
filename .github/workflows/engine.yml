@@ -1,0 +1,37 @@
+name: trading-engine
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: premarket | midday | close
+        default: premarket
+  schedule:
+    - cron: "15 12 * * 1-5"
+    - cron: "40 17 * * 1-5"
+    - cron: "5 20 * * 1-5"
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pick mode
+        id: mode
+        run: |
+          if [ -n "${{ github.event.inputs.mode }}" ]; then echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT; exit 0; fi
+          H=$(date -u +%H)
+          if [ "$H" -lt 15 ]; then echo "mode=premarket" >> $GITHUB_OUTPUT; elif [ "$H" -lt 19 ]; then echo "mode=midday" >> $GITHUB_OUTPUT; else echo "mode=close" >> $GITHUB_OUTPUT; fi
+      - name: run engine
+        env:
+          POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
+        run: python3 engine.py ${{ steps.mode.outputs.mode }}
+      - name: commit result
+        run: |
+          git config user.name "trading-engine"
+          git config user.email "engine@users.noreply.github.com"
+          cp result.json "result_${{ steps.mode.outputs.mode }}.json"
+          git add result.json result_*.json
+          git commit -m "engine ${{ steps.mode.outputs.mode }} $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no change"
+          git pull --rebase
+          git push
