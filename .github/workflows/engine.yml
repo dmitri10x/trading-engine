@@ -25,14 +25,14 @@ jobs:
       - name: run engine
         env:
           POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
-          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+          AIRTABLE_TOKEN: ${{ secrets.DMITRI10X }}
         run: python3 engine.py ${{ steps.mode.outputs.mode }}
       - name: commit result
         run: |
           git config user.name "trading-engine"
           git config user.email "engine@users.noreply.github.com"
           cp result.json "result_${{ steps.mode.outputs.mode }}.json"
-          git add result.json result_*.json
+          git add result.json result_*.json summary.json summary_*.json
           git commit -m "engine ${{ steps.mode.outputs.mode }} $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no change"
           git pull --rebase
           git push
