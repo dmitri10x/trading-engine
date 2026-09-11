@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
 Dmitri's swing trading engine (runs on GitHub Actions).
-Reads : settings.json, tickers.json (held symbols, optional), POLYGON_API_KEY env
-Writes: result.json = market context + metrics for a liquid universe (plus held tickers) + screened ideas
+Reads : settings.json, held tickers from Airtable Positions (fallback tickers.json), POLYGON_API_KEY, AIRTABLE_TOKEN
+Writes: result.json + one row per mode in the Airtable "Engine" table (what Claude reads).
 Rules : price above MA150, market cap > $1B, ATR% >= 4, high volume, stop = 1.5 ATR, R >= 2.
-Claude reads result.json, merges with Robinhood positions, updates Airtable and messages Dmitri.
 """
 import json, os, sys, time, math, datetime as dt
 import urllib.request, urllib.parse, urllib.error
@@ -114,10 +113,42 @@ def idea_from(t, m, info):
                 chg1=m["chg1"], dist_ma150_pct=m["dist_ma150_pct"], score=min(5, int(score)),
                 note=f"{setup}; {m['chg1']:+.1f}% on {m['rel_vol']}x vol; {m['dist_ma150_pct']}% above MA150; ATR {m['atr_pct']}%")
 
+AT_TOKEN = os.environ.get("AIRTABLE_TOKEN", "")
+AT_BASE = "appEzQlGPDRO3qGFS"; AT_POSITIONS = "tblXLhNGEWnieEgUQ"; AT_ENGINE = "tbl5daYUwgw4ozvxk"
+
+def airtable(method, path, body=None):
+    if not AT_TOKEN: return None
+    req = urllib.request.Request(f"https://api.airtable.com/v0/{AT_BASE}/{path}", method=method,
+                                 headers={"Authorization": f"Bearer {AT_TOKEN}", "Content-Type": "application/json"},
+                                 data=json.dumps(body).encode() if body else None)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r: return json.load(r)
+    except urllib.error.HTTPError as e:
+        print("airtable", e.code, e.read()[:300]); return None
+
+def held_from_airtable():
+    """Open positions from the Airtable book (Status != Closed). Falls back to tickers.json."""
+    j = airtable("GET", f"{AT_POSITIONS}?" + urllib.parse.urlencode({"filterByFormula": "AND({Status}!='Closed',{Type}='Stock')", "fields[]": "Ticker"}))
+    if j and j.get("records"):
+        return [r["fields"].get("Ticker", "").split()[0] for r in j["records"] if r["fields"].get("Ticker")]
+    return [p["symbol"] if isinstance(p, dict) else p for p in load("tickers.json", [])]
+
+def push_to_airtable(res, held):
+    """Upsert one Engine row per mode with a trimmed payload Claude can read through the Airtable MCP."""
+    keep = set(held) | {i["symbol"] for i in res["ideas"]}
+    slim = dict(res); slim["metrics"] = {t: m for t, m in res["metrics"].items() if t in keep}
+    slim["alerts"] = [a for a in res["alerts"] if a.split()[0] in keep]
+    payload = json.dumps(slim, separators=(",", ":"))
+    summary = f"{res['mode']} {res['as_of']} | {len(res['metrics'])} tickers | ideas {len(res['ideas'])} | alerts {len(slim['alerts'])} | market " + \
+              ", ".join(f"{k} {v['chg1']:+.1f}%" for k, v in res["market"].items())
+    body = {"performUpsert": {"fieldsToMergeOn": ["Key"]}, "records": [{"fields": {"Key": res["mode"], "As Of": res["as_of"], "Summary": summary, "Payload": payload[:99000]}}]}
+    r = airtable("PATCH", AT_ENGINE, body)
+    print("airtable push:", "ok" if r else "failed", len(payload))
+
 def main():
     if not KEY:
         json.dump({"error": "POLYGON_API_KEY missing (GitHub Actions secret)"}, open("result.json", "w")); return
-    held = [p["symbol"] if isinstance(p, dict) else p for p in load("tickers.json", [])]
+    held = held_from_airtable()
     res = dict(mode=MODE, as_of=dt.datetime.utcnow().isoformat() + "Z", market={}, metrics={}, ideas=[], alerts=[])
     for t in ("SPY", "QQQ", "IWM"):
         m = metrics(bars(t, 200))
@@ -137,7 +168,6 @@ def main():
         res["metrics"][t] = m
         for a in m["alerts"]: res["alerts"].append(f"{t} {a}")
     if MODE == "premarket":
-        # candidates: strong day on big dollar volume, not already held
         cands = []
         for t, m in res["metrics"].items():
             if t in held: continue
@@ -155,6 +185,7 @@ def main():
     res["held_missing"] = [t for t in held if t not in res["metrics"]]
     res["api_calls"] = CALLS
     json.dump(res, open("result.json", "w"), indent=1)
+    push_to_airtable(res, held)
     print("done", MODE, "tickers", len(res["metrics"]), "calls", CALLS)
 
 if __name__ == "__main__":
