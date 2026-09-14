@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-14T12:29:50.154257Z",
+ "mode": "midday",
+ "as_of": "2026-09-14T17:48:29.815551Z",
  "market": {
   "SPY": {
    "close": 764.29,
@@ -7398,93 +7398,7 @@
    "last_date": "2026-09-11"
   }
  },
- "ideas": [
-  {
-   "symbol": "ACVA",
-   "name": "ACV Auctions Inc.",
-   "setup": "Breakout",
-   "price": 10.41,
-   "entry": 10.41,
-   "stop": 9.54,
-   "target": 13.02,
-   "r_multiple": 3.0,
-   "mcap_b": 1.8,
-   "atr_pct": 5.6,
-   "rel_vol": 27.77,
-   "chg1": 44.18,
-   "dist_ma150_pct": 67.4,
-   "score": 5,
-   "note": "Breakout; +44.2% on 27.77x vol; 67.4% above MA150; ATR 5.6%"
-  },
-  {
-   "symbol": "DELL",
-   "name": "Dell Technologies Inc.",
-   "setup": "Breakout",
-   "price": 567.29,
-   "entry": 567.29,
-   "stop": 517.9,
-   "target": 715.46,
-   "r_multiple": 3.0,
-   "mcap_b": 360.7,
-   "atr_pct": 5.8,
-   "rel_vol": 1.7,
-   "chg1": 11.98,
-   "dist_ma150_pct": 84.6,
-   "score": 4,
-   "note": "Breakout; +12.0% on 1.7x vol; 84.6% above MA150; ATR 5.8%"
-  },
-  {
-   "symbol": "HPE",
-   "name": "Hewlett Packard Enterprise Company",
-   "setup": "Breakout",
-   "price": 62.09,
-   "entry": 62.09,
-   "stop": 56.82,
-   "target": 77.9,
-   "r_multiple": 3.0,
-   "mcap_b": 82.4,
-   "atr_pct": 5.66,
-   "rel_vol": 1.71,
-   "chg1": 12.44,
-   "dist_ma150_pct": 64.6,
-   "score": 4,
-   "note": "Breakout; +12.4% on 1.71x vol; 64.6% above MA150; ATR 5.66%"
-  },
-  {
-   "symbol": "HPQ",
-   "name": "HP Inc.",
-   "setup": "Volume surge",
-   "price": 35.48,
-   "entry": 35.48,
-   "stop": 32.83,
-   "target": 42.1,
-   "r_multiple": 2.5,
-   "mcap_b": 32.0,
-   "atr_pct": 4.98,
-   "rel_vol": 1.71,
-   "chg1": 8.4,
-   "dist_ma150_pct": 52.3,
-   "score": 4,
-   "note": "Volume surge; +8.4% on 1.71x vol; 52.3% above MA150; ATR 4.98%"
-  },
-  {
-   "symbol": "SWKS",
-   "name": "Skyworks Solutions Inc",
-   "setup": "Volume surge",
-   "price": 88.35,
-   "entry": 88.35,
-   "stop": 82.32,
-   "target": 103.42,
-   "r_multiple": 2.5,
-   "mcap_b": 13.3,
-   "atr_pct": 4.55,
-   "rel_vol": 1.87,
-   "chg1": 5.14,
-   "dist_ma150_pct": 36.5,
-   "score": 4,
-   "note": "Volume surge; +5.1% on 1.87x vol; 36.5% above MA150; ATR 4.55%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MARA moved +4.8% on 0.91x volume",
   "CLSK moved +6.8% on 1.17x volume",
@@ -7526,7 +7440,6 @@
   "SMTC moved +5.1% on 0.76x volume"
  ],
  "grouped_date": "2026-09-11",
- "scan_note": "universe 305, candidates 6, ideas 5",
  "held_missing": [],
- "api_calls": 592
+ "api_calls": 583
 }
