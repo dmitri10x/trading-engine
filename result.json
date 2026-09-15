@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-15T12:28:03.793223Z",
+ "mode": "midday",
+ "as_of": "2026-09-15T17:47:20.116403Z",
  "market": {
   "SPY": {
    "close": 760.88,
@@ -7536,93 +7536,7 @@
    "last_date": "2026-09-14"
   }
  },
- "ideas": [
-  {
-   "symbol": "ZS",
-   "name": "Zscaler, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 191.73,
-   "entry": 191.73,
-   "stop": 175.32,
-   "target": 232.75,
-   "r_multiple": 2.5,
-   "mcap_b": 26.8,
-   "atr_pct": 5.71,
-   "rel_vol": 2.52,
-   "chg1": 16.52,
-   "dist_ma150_pct": 26.4,
-   "score": 5,
-   "note": "Volume surge; +16.5% on 2.52x vol; 26.4% above MA150; ATR 5.71%"
-  },
-  {
-   "symbol": "CRWD",
-   "name": "CrowdStrike Holdings, Inc. Class A Common Stock",
-   "setup": "Volume surge",
-   "price": 235.38,
-   "entry": 235.38,
-   "stop": 212.58,
-   "target": 292.38,
-   "r_multiple": 2.5,
-   "mcap_b": 211.7,
-   "atr_pct": 6.46,
-   "rel_vol": 2.44,
-   "chg1": 13.85,
-   "dist_ma150_pct": 53.4,
-   "score": 5,
-   "note": "Volume surge; +13.8% on 2.44x vol; 53.4% above MA150; ATR 6.46%"
-  },
-  {
-   "symbol": "RBRK",
-   "name": "Rubrik, Inc.",
-   "setup": "Volume surge",
-   "price": 100.2,
-   "entry": 100.2,
-   "stop": 89.81,
-   "target": 126.18,
-   "r_multiple": 2.5,
-   "mcap_b": 18.0,
-   "atr_pct": 6.91,
-   "rel_vol": 1.51,
-   "chg1": 15.64,
-   "dist_ma150_pct": 45.4,
-   "score": 4,
-   "note": "Volume surge; +15.6% on 1.51x vol; 45.4% above MA150; ATR 6.91%"
-  },
-  {
-   "symbol": "PANW",
-   "name": "Palo Alto Networks, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 373.94,
-   "entry": 373.94,
-   "stop": 340.93,
-   "target": 456.46,
-   "r_multiple": 2.5,
-   "mcap_b": 270.5,
-   "atr_pct": 5.88,
-   "rel_vol": 1.98,
-   "chg1": 13.09,
-   "dist_ma150_pct": 47.1,
-   "score": 4,
-   "note": "Volume surge; +13.1% on 1.98x vol; 47.1% above MA150; ATR 5.88%"
-  },
-  {
-   "symbol": "RBLX",
-   "name": "Roblox Corporation",
-   "setup": "Breakout",
-   "price": 51.29,
-   "entry": 51.29,
-   "stop": 47.91,
-   "target": 61.43,
-   "r_multiple": 3.0,
-   "mcap_b": 32.5,
-   "atr_pct": 4.39,
-   "rel_vol": 1.88,
-   "chg1": 12.73,
-   "dist_ma150_pct": 0.5,
-   "score": 3,
-   "note": "Breakout; +12.7% on 1.88x vol; 0.5% above MA150; ATR 4.39%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MARA moved -4.0% on 1.06x volume",
   "MSTR moved +4.6% on 0.65x volume",
@@ -7721,7 +7635,6 @@
   "PBF moved -10.1% on 2.76x volume"
  ],
  "grouped_date": "2026-09-14",
- "scan_note": "universe 305, candidates 6, ideas 5",
  "held_missing": [],
- "api_calls": 584
+ "api_calls": 583
 }
