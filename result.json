@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-16T12:28:51.417285Z",
+ "mode": "midday",
+ "as_of": "2026-09-16T17:47:00.129437Z",
  "market": {
   "SPY": {
    "close": 757.39,
@@ -7402,76 +7402,7 @@
    "last_date": "2026-09-15"
   }
  },
- "ideas": [
-  {
-   "symbol": "CRWD",
-   "name": "CrowdStrike Holdings, Inc. Class A Common Stock",
-   "setup": "Breakout",
-   "price": 242.49,
-   "entry": 242.49,
-   "stop": 219.72,
-   "target": 310.8,
-   "r_multiple": 3.0,
-   "mcap_b": 248.3,
-   "atr_pct": 6.26,
-   "rel_vol": 1.52,
-   "chg1": 3.02,
-   "dist_ma150_pct": 57.0,
-   "score": 4,
-   "note": "Breakout; +3.0% on 1.52x vol; 57.0% above MA150; ATR 6.26%"
-  },
-  {
-   "symbol": "SWKS",
-   "name": "Skyworks Solutions Inc",
-   "setup": "Volume surge",
-   "price": 90,
-   "entry": 90,
-   "stop": 82.4,
-   "target": 109.0,
-   "r_multiple": 2.5,
-   "mcap_b": 13.5,
-   "atr_pct": 5.63,
-   "rel_vol": 1.94,
-   "chg1": 13.55,
-   "dist_ma150_pct": 38.4,
-   "score": 4,
-   "note": "Volume surge; +13.6% on 1.94x vol; 38.4% above MA150; ATR 5.63%"
-  },
-  {
-   "symbol": "ILMN",
-   "name": "Illumina Inc",
-   "setup": "Volume surge",
-   "price": 222.29,
-   "entry": 222.29,
-   "stop": 208.89,
-   "target": 255.79,
-   "r_multiple": 2.5,
-   "mcap_b": 33.6,
-   "atr_pct": 4.02,
-   "rel_vol": 1.7,
-   "chg1": 6.76,
-   "dist_ma150_pct": 38.9,
-   "score": 4,
-   "note": "Volume surge; +6.8% on 1.7x vol; 38.9% above MA150; ATR 4.02%"
-  },
-  {
-   "symbol": "GH",
-   "name": "Guardant Health, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 175.65,
-   "entry": 175.65,
-   "stop": 162.75,
-   "target": 207.9,
-   "r_multiple": 2.5,
-   "mcap_b": 23.6,
-   "atr_pct": 4.9,
-   "rel_vol": 1.51,
-   "chg1": 4.65,
-   "dist_ma150_pct": 42.3,
-   "score": 4,
-   "note": "Volume surge; +4.7% on 1.51x vol; 42.3% above MA150; ATR 4.9%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MSTR moved -5.4% on 0.81x volume",
   "CLSK moved -4.9% on 0.83x volume",
@@ -7503,7 +7434,6 @@
   "DLTR moved -5.4% on 1.59x volume"
  ],
  "grouped_date": "2026-09-15",
- "scan_note": "universe 305, candidates 5, ideas 4",
  "held_missing": [],
- "api_calls": 583
+ "api_calls": 584
 }
