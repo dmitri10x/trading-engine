@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-17T12:28:13.108851Z",
+ "mode": "midday",
+ "as_of": "2026-09-17T17:47:33.350184Z",
  "market": {
   "SPY": {
    "close": 754.05,
@@ -7414,59 +7414,7 @@
    "last_date": "2026-09-16"
   }
  },
- "ideas": [
-  {
-   "symbol": "SN",
-   "name": "SharkNinja, Inc.",
-   "setup": "Volume surge",
-   "price": 170.68,
-   "entry": 170.68,
-   "stop": 159.41,
-   "target": 198.86,
-   "r_multiple": 2.5,
-   "mcap_b": 24.0,
-   "atr_pct": 4.4,
-   "rel_vol": 2.18,
-   "chg1": 2.15,
-   "dist_ma150_pct": 25.6,
-   "score": 5,
-   "note": "Volume surge; +2.1% on 2.18x vol; 25.6% above MA150; ATR 4.4%"
-  },
-  {
-   "symbol": "ILMN",
-   "name": "Illumina Inc",
-   "setup": "Volume surge",
-   "price": 228.93,
-   "entry": 228.93,
-   "stop": 214.88,
-   "target": 264.06,
-   "r_multiple": 2.5,
-   "mcap_b": 34.6,
-   "atr_pct": 4.09,
-   "rel_vol": 1.72,
-   "chg1": 2.99,
-   "dist_ma150_pct": 42.4,
-   "score": 4,
-   "note": "Volume surge; +3.0% on 1.72x vol; 42.4% above MA150; ATR 4.09%"
-  },
-  {
-   "symbol": "LITE",
-   "name": "Lumentum Holdings Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 919.4,
-   "entry": 919.4,
-   "stop": 828.37,
-   "target": 1146.97,
-   "r_multiple": 2.5,
-   "mcap_b": 82.5,
-   "atr_pct": 6.6,
-   "rel_vol": 1.59,
-   "chg1": 9.59,
-   "dist_ma150_pct": 12.3,
-   "score": 3,
-   "note": "Volume surge; +9.6% on 1.59x vol; 12.3% above MA150; ATR 6.6%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "HOOD moved -5.5% on 1.45x volume",
   "SPCX moved +5.2% on 1.42x volume",
@@ -7504,7 +7452,6 @@
   "KEY moved -4.5% on 2.36x volume"
  ],
  "grouped_date": "2026-09-16",
- "scan_note": "universe 305, candidates 4, ideas 3",
  "held_missing": [],
- "api_calls": 587
+ "api_calls": 582
 }
