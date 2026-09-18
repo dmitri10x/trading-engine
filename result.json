@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-18T12:26:50.268958Z",
+ "mode": "midday",
+ "as_of": "2026-09-18T17:45:05.022055Z",
  "market": {
   "SPY": {
    "close": 762.6,
@@ -7472,93 +7472,7 @@
    "last_date": "2026-09-17"
   }
  },
- "ideas": [
-  {
-   "symbol": "TEM",
-   "name": "Tempus AI, Inc. Class A Common Stock",
-   "setup": "Volume surge",
-   "price": 80.36,
-   "entry": 80.36,
-   "stop": 73.1,
-   "target": 98.51,
-   "r_multiple": 2.5,
-   "mcap_b": 14.6,
-   "atr_pct": 6.02,
-   "rel_vol": 1.98,
-   "chg1": 14.85,
-   "dist_ma150_pct": 51.9,
-   "score": 4,
-   "note": "Volume surge; +14.8% on 1.98x vol; 51.9% above MA150; ATR 6.02%"
-  },
-  {
-   "symbol": "SMCI",
-   "name": "Super Micro Computer, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 40.35,
-   "entry": 40.35,
-   "stop": 36.83,
-   "target": 49.15,
-   "r_multiple": 2.5,
-   "mcap_b": 26.5,
-   "atr_pct": 5.81,
-   "rel_vol": 1.71,
-   "chg1": 9.5,
-   "dist_ma150_pct": 27.7,
-   "score": 4,
-   "note": "Volume surge; +9.5% on 1.71x vol; 27.7% above MA150; ATR 5.81%"
-  },
-  {
-   "symbol": "ARM",
-   "name": "Arm Holdings plc American Depositary Shares",
-   "setup": "Volume surge",
-   "price": 264.9,
-   "entry": 264.9,
-   "stop": 242.76,
-   "target": 320.25,
-   "r_multiple": 2.5,
-   "mcap_b": 282.9,
-   "atr_pct": 5.57,
-   "rel_vol": 1.62,
-   "chg1": 8.57,
-   "dist_ma150_pct": 12.2,
-   "score": 4,
-   "note": "Volume surge; +8.6% on 1.62x vol; 12.2% above MA150; ATR 5.57%"
-  },
-  {
-   "symbol": "INTC",
-   "name": "Intel Corp",
-   "setup": "Volume surge",
-   "price": 108.8,
-   "entry": 108.8,
-   "stop": 100.35,
-   "target": 129.93,
-   "r_multiple": 2.5,
-   "mcap_b": 575.1,
-   "atr_pct": 5.18,
-   "rel_vol": 1.64,
-   "chg1": 7.67,
-   "dist_ma150_pct": 23.6,
-   "score": 4,
-   "note": "Volume surge; +7.7% on 1.64x vol; 23.6% above MA150; ATR 5.18%"
-  },
-  {
-   "symbol": "TWST",
-   "name": "Twist Bioscience Corporation Common Stock",
-   "setup": "Volume surge",
-   "price": 155.56,
-   "entry": 155.56,
-   "stop": 140.63,
-   "target": 192.89,
-   "r_multiple": 2.5,
-   "mcap_b": 10.3,
-   "atr_pct": 6.4,
-   "rel_vol": 1.98,
-   "chg1": 8.73,
-   "dist_ma150_pct": 95.8,
-   "score": 4,
-   "note": "Volume surge; +8.7% on 1.98x vol; 95.8% above MA150; ATR 6.4%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MARA moved +5.4% on 1.38x volume",
   "MSTR moved +4.8% on 0.64x volume",
@@ -7625,7 +7539,6 @@
   "TWST moved +8.7% on 1.98x volume"
  ],
  "grouped_date": "2026-09-17",
- "scan_note": "universe 305, candidates 12, ideas 5",
  "held_missing": [],
- "api_calls": 593
+ "api_calls": 586
 }
