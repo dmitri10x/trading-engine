@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-23T12:27:45.609850Z",
+ "mode": "midday",
+ "as_of": "2026-09-23T17:46:23.255440Z",
  "market": {
   "SPY": {
    "close": 773.38,
@@ -7410,93 +7410,7 @@
    "last_date": "2026-09-22"
   }
  },
- "ideas": [
-  {
-   "symbol": "TWLO",
-   "name": "Twilio Inc.",
-   "setup": "Breakout",
-   "price": 284.53,
-   "entry": 284.53,
-   "stop": 266.31,
-   "target": 339.19,
-   "r_multiple": 3.0,
-   "mcap_b": 43.7,
-   "atr_pct": 4.27,
-   "rel_vol": 2.25,
-   "chg1": 6.94,
-   "dist_ma150_pct": 55.2,
-   "score": 5,
-   "note": "Breakout; +6.9% on 2.25x vol; 55.2% above MA150; ATR 4.27%"
-  },
-  {
-   "symbol": "VKTX",
-   "name": "Viking Therapeutics, Inc",
-   "setup": "Volume surge",
-   "price": 40.85,
-   "entry": 40.85,
-   "stop": 37.51,
-   "target": 49.2,
-   "r_multiple": 2.5,
-   "mcap_b": 4.8,
-   "atr_pct": 5.45,
-   "rel_vol": 19.29,
-   "chg1": 35.67,
-   "dist_ma150_pct": 22.4,
-   "score": 5,
-   "note": "Volume surge; +35.7% on 19.29x vol; 22.4% above MA150; ATR 5.45%"
-  },
-  {
-   "symbol": "SHOP",
-   "name": "Shopify Inc. Class A subordinate voting shares",
-   "setup": "Volume surge",
-   "price": 147.74,
-   "entry": 147.74,
-   "stop": 137.86,
-   "target": 172.44,
-   "r_multiple": 2.5,
-   "mcap_b": 190.1,
-   "atr_pct": 4.46,
-   "rel_vol": 2.99,
-   "chg1": 7.12,
-   "dist_ma150_pct": 19.3,
-   "score": 5,
-   "note": "Volume surge; +7.1% on 2.99x vol; 19.3% above MA150; ATR 4.46%"
-  },
-  {
-   "symbol": "ARM",
-   "name": "Arm Holdings plc American Depositary Shares",
-   "setup": "Breakout",
-   "price": 333.2,
-   "entry": 333.2,
-   "stop": 306.36,
-   "target": 413.72,
-   "r_multiple": 3.0,
-   "mcap_b": 355.9,
-   "atr_pct": 5.37,
-   "rel_vol": 1.63,
-   "chg1": 3.19,
-   "dist_ma150_pct": 39.0,
-   "score": 4,
-   "note": "Breakout; +3.2% on 1.63x vol; 39.0% above MA150; ATR 5.37%"
-  },
-  {
-   "symbol": "HL",
-   "name": "Hecla Mining Company",
-   "setup": "Volume surge",
-   "price": 19.03,
-   "entry": 19.03,
-   "stop": 17.48,
-   "target": 22.91,
-   "r_multiple": 2.5,
-   "mcap_b": 12.8,
-   "atr_pct": 5.42,
-   "rel_vol": 1.5,
-   "chg1": 3.71,
-   "dist_ma150_pct": 4.6,
-   "score": 3,
-   "note": "Volume surge; +3.7% on 1.5x vol; 4.6% above MA150; ATR 5.42%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MU moved +5.0% on 1.16x volume",
   "SNDK moved +6.8% on 1.19x volume",
@@ -7532,7 +7446,6 @@
   "NTRA moved +5.5% on 1.15x volume"
  ],
  "grouped_date": "2026-09-22",
- "scan_note": "universe 305, candidates 6, ideas 5",
  "held_missing": [],
- "api_calls": 593
+ "api_calls": 584
 }
