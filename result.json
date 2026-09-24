@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-24T12:28:23.210216Z",
+ "mode": "midday",
+ "as_of": "2026-09-24T17:46:34.319697Z",
  "market": {
   "SPY": {
    "close": 767.81,
@@ -7432,59 +7432,7 @@
    "last_date": "2026-09-23"
   }
  },
- "ideas": [
-  {
-   "symbol": "FSLY",
-   "name": "Fastly, Inc. Class A Common Stock",
-   "setup": "Volume surge",
-   "price": 29.65,
-   "entry": 29.65,
-   "stop": 25.64,
-   "target": 39.67,
-   "r_multiple": 2.5,
-   "mcap_b": 4.7,
-   "atr_pct": 9.01,
-   "rel_vol": 5.2,
-   "chg1": 13.69,
-   "dist_ma150_pct": 32.1,
-   "score": 5,
-   "note": "Volume surge; +13.7% on 5.2x vol; 32.1% above MA150; ATR 9.01%"
-  },
-  {
-   "symbol": "TWLO",
-   "name": "Twilio Inc.",
-   "setup": "Volume surge",
-   "price": 290.7,
-   "entry": 290.7,
-   "stop": 272.02,
-   "target": 337.4,
-   "r_multiple": 2.5,
-   "mcap_b": 44.6,
-   "atr_pct": 4.28,
-   "rel_vol": 2.1,
-   "chg1": 2.17,
-   "dist_ma150_pct": 57.5,
-   "score": 5,
-   "note": "Volume surge; +2.2% on 2.1x vol; 57.5% above MA150; ATR 4.28%"
-  },
-  {
-   "symbol": "VKTX",
-   "name": "Viking Therapeutics, Inc",
-   "setup": "Volume surge",
-   "price": 41.65,
-   "entry": 41.65,
-   "stop": 37.95,
-   "target": 50.9,
-   "r_multiple": 2.5,
-   "mcap_b": 4.9,
-   "atr_pct": 5.93,
-   "rel_vol": 3.83,
-   "chg1": 1.96,
-   "dist_ma150_pct": 24.6,
-   "score": 5,
-   "note": "Volume surge; +2.0% on 3.83x vol; 24.6% above MA150; ATR 5.93%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "CLSK moved -4.5% on 0.97x volume",
   "AFRM moved -5.1% on 1.02x volume",
@@ -7519,7 +7467,6 @@
   "ASTS moved -5.8% on 0.87x volume"
  ],
  "grouped_date": "2026-09-23",
- "scan_note": "universe 306, candidates 3, ideas 3",
  "held_missing": [],
- "api_calls": 582
+ "api_calls": 575
 }
