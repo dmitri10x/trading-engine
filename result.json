@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-25T12:28:22.663254Z",
+ "mode": "midday",
+ "as_of": "2026-09-25T17:48:47.776559Z",
  "market": {
   "SPY": {
    "close": 767.18,
@@ -7410,93 +7410,7 @@
    "last_date": "2026-09-24"
   }
  },
- "ideas": [
-  {
-   "symbol": "TWST",
-   "name": "Twist Bioscience Corporation Common Stock",
-   "setup": "Breakout",
-   "price": 184.03,
-   "entry": 184.03,
-   "stop": 167.09,
-   "target": 234.85,
-   "r_multiple": 3.0,
-   "mcap_b": 12.2,
-   "atr_pct": 6.14,
-   "rel_vol": 1.99,
-   "chg1": 16.11,
-   "dist_ma150_pct": 120.9,
-   "score": 4,
-   "note": "Breakout; +16.1% on 1.99x vol; 120.9% above MA150; ATR 6.14%"
-  },
-  {
-   "symbol": "TEM",
-   "name": "Tempus AI, Inc. Class A Common Stock",
-   "setup": "Breakout",
-   "price": 82.24,
-   "entry": 82.24,
-   "stop": 75.35,
-   "target": 102.91,
-   "r_multiple": 3.0,
-   "mcap_b": 14.9,
-   "atr_pct": 5.59,
-   "rel_vol": 1.61,
-   "chg1": 7.38,
-   "dist_ma150_pct": 53.1,
-   "score": 4,
-   "note": "Breakout; +7.4% on 1.61x vol; 53.1% above MA150; ATR 5.59%"
-  },
-  {
-   "symbol": "NBIS",
-   "name": "Nebius Group N.V. Class A Ordinary Shares",
-   "setup": "Volume surge",
-   "price": 243.48,
-   "entry": 243.48,
-   "stop": 219.17,
-   "target": 304.25,
-   "r_multiple": 2.5,
-   "mcap_b": 66.2,
-   "atr_pct": 6.65,
-   "rel_vol": 1.65,
-   "chg1": 7.44,
-   "dist_ma150_pct": 30.2,
-   "score": 4,
-   "note": "Volume surge; +7.4% on 1.65x vol; 30.2% above MA150; ATR 6.65%"
-  },
-  {
-   "symbol": "TWLO",
-   "name": "Twilio Inc.",
-   "setup": "Volume surge",
-   "price": 299.66,
-   "entry": 299.66,
-   "stop": 280.39,
-   "target": 347.84,
-   "r_multiple": 2.5,
-   "mcap_b": 46.0,
-   "atr_pct": 4.29,
-   "rel_vol": 1.77,
-   "chg1": 3.08,
-   "dist_ma150_pct": 61.3,
-   "score": 4,
-   "note": "Volume surge; +3.1% on 1.77x vol; 61.3% above MA150; ATR 4.29%"
-  },
-  {
-   "symbol": "IONQ",
-   "name": "IonQ, Inc.",
-   "setup": "Volume surge",
-   "price": 44.98,
-   "entry": 44.98,
-   "stop": 40.91,
-   "target": 55.16,
-   "r_multiple": 2.5,
-   "mcap_b": 18.2,
-   "atr_pct": 6.03,
-   "rel_vol": 1.98,
-   "chg1": 5.74,
-   "dist_ma150_pct": 3.9,
-   "score": 3,
-   "note": "Volume surge; +5.7% on 1.98x vol; 3.9% above MA150; ATR 6.03%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "AFRM moved +5.1% on 0.97x volume",
   "META moved +4.5% on 1.57x volume",
@@ -7532,7 +7446,6 @@
   "RIOT moved -4.9% on 1.4x volume"
  ],
  "grouped_date": "2026-09-24",
- "scan_note": "universe 305, candidates 9, ideas 5",
  "held_missing": [],
- "api_calls": 599
+ "api_calls": 574
 }
