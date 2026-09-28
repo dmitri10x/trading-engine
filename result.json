@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-28T12:30:38.452699Z",
+ "mode": "midday",
+ "as_of": "2026-09-28T17:49:43.343228Z",
  "market": {
   "SPY": {
    "close": 771.35,
@@ -7413,7 +7413,6 @@
   "TSEM moved +6.1% on 1.06x volume"
  ],
  "grouped_date": "2026-09-25",
- "scan_note": "universe 305, candidates 1, ideas 0",
  "held_missing": [],
- "api_calls": 583
+ "api_calls": 581
 }
