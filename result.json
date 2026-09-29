@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-29T12:31:01.932408Z",
+ "mode": "midday",
+ "as_of": "2026-09-29T17:50:27.657829Z",
  "market": {
   "SPY": {
    "close": 765.61,
@@ -7512,7 +7512,6 @@
   "HUBS moved -5.1% on 1.47x volume"
  ],
  "grouped_date": "2026-09-28",
- "scan_note": "universe 306, candidates 1, ideas 0",
  "held_missing": [],
- "api_calls": 588
+ "api_calls": 575
 }
