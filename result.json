@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-09-30T12:34:01.702021Z",
+ "mode": "midday",
+ "as_of": "2026-09-30T17:50:16.321616Z",
  "market": {
   "SPY": {
    "close": 764.2,
@@ -7402,59 +7402,7 @@
    "last_date": "2026-09-29"
   }
  },
- "ideas": [
-  {
-   "symbol": "IOVA",
-   "name": "Iovance Biotherapeutics, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 14.45,
-   "entry": 14.45,
-   "stop": 13.12,
-   "target": 17.77,
-   "r_multiple": 2.5,
-   "mcap_b": 6.5,
-   "atr_pct": 6.14,
-   "rel_vol": 5.6,
-   "chg1": 31.48,
-   "dist_ma150_pct": 178.1,
-   "score": 5,
-   "note": "Volume surge; +31.5% on 5.6x vol; 178.1% above MA150; ATR 6.14%"
-  },
-  {
-   "symbol": "KMX",
-   "name": "CarMax Inc.",
-   "setup": "Volume surge",
-   "price": 59.23,
-   "entry": 59.23,
-   "stop": 55.32,
-   "target": 69.0,
-   "r_multiple": 2.5,
-   "mcap_b": 8.4,
-   "atr_pct": 4.41,
-   "rel_vol": 5.13,
-   "chg1": 4.74,
-   "dist_ma150_pct": 19.7,
-   "score": 5,
-   "note": "Volume surge; +4.7% on 5.13x vol; 19.7% above MA150; ATR 4.41%"
-  },
-  {
-   "symbol": "TWST",
-   "name": "Twist Bioscience Corporation Common Stock",
-   "setup": "Volume surge",
-   "price": 186.13,
-   "entry": 186.13,
-   "stop": 168.28,
-   "target": 230.75,
-   "r_multiple": 2.5,
-   "mcap_b": 12.3,
-   "atr_pct": 6.39,
-   "rel_vol": 1.84,
-   "chg1": 3.64,
-   "dist_ma150_pct": 116.4,
-   "score": 4,
-   "note": "Volume surge; +3.6% on 1.84x vol; 116.4% above MA150; ATR 6.39%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "BE moved +10.8% on 1.4x volume",
   "LITE moved +5.7% on 1.36x volume",
@@ -7474,7 +7422,6 @@
   "DKNG moved -7.4% on 2.02x volume"
  ],
  "grouped_date": "2026-09-29",
- "scan_note": "universe 306, candidates 3, ideas 3",
  "held_missing": [],
- "api_calls": 591
+ "api_calls": 577
 }
