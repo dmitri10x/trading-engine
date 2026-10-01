@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-01T12:32:05.061196Z",
+ "mode": "midday",
+ "as_of": "2026-10-01T17:51:40.648331Z",
  "market": {
   "SPY": {
    "close": 762.63,
@@ -7402,42 +7402,7 @@
    "last_date": "2026-09-30"
   }
  },
- "ideas": [
-  {
-   "symbol": "TWST",
-   "name": "Twist Bioscience Corporation Common Stock",
-   "setup": "Volume surge",
-   "price": 193.24,
-   "entry": 193.24,
-   "stop": 175.18,
-   "target": 238.39,
-   "r_multiple": 2.5,
-   "mcap_b": 12.8,
-   "atr_pct": 6.23,
-   "rel_vol": 1.55,
-   "chg1": 3.82,
-   "dist_ma150_pct": 122.2,
-   "score": 4,
-   "note": "Volume surge; +3.8% on 1.55x vol; 122.2% above MA150; ATR 6.23%"
-  },
-  {
-   "symbol": "MDB",
-   "name": "MongoDB, Inc. Class A",
-   "setup": "Volume surge",
-   "price": 348.61,
-   "entry": 348.61,
-   "stop": 305.73,
-   "target": 455.81,
-   "r_multiple": 2.5,
-   "mcap_b": 28.1,
-   "atr_pct": 8.2,
-   "rel_vol": 1.94,
-   "chg1": 3.39,
-   "dist_ma150_pct": 6.3,
-   "score": 3,
-   "note": "Volume surge; +3.4% on 1.94x vol; 6.3% above MA150; ATR 8.2%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MARA moved -5.5% on 0.9x volume",
   "MP moved +4.1% on 1.2x volume",
@@ -7457,7 +7422,6 @@
   "PATH moved +4.2% on 0.76x volume"
  ],
  "grouped_date": "2026-09-30",
- "scan_note": "universe 306, candidates 2, ideas 2",
  "held_missing": [],
- "api_calls": 590
+ "api_calls": 576
 }
