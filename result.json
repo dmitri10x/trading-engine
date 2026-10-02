@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-02T12:30:37.510869Z",
+ "mode": "midday",
+ "as_of": "2026-10-02T17:49:33.075445Z",
  "market": {
   "SPY": {
    "close": 763.99,
@@ -7408,76 +7408,7 @@
    "last_date": "2026-10-01"
   }
  },
- "ideas": [
-  {
-   "symbol": "ACN",
-   "name": "Accenture PLC",
-   "setup": "Volume surge",
-   "price": 212.3,
-   "entry": 212.3,
-   "stop": 197.4,
-   "target": 249.55,
-   "r_multiple": 2.5,
-   "mcap_b": 129.9,
-   "atr_pct": 4.68,
-   "rel_vol": 5.44,
-   "chg1": 15.78,
-   "dist_ma150_pct": 20.5,
-   "score": 5,
-   "note": "Volume surge; +15.8% on 5.44x vol; 20.5% above MA150; ATR 4.68%"
-  },
-  {
-   "symbol": "LITE",
-   "name": "Lumentum Holdings Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 1045.78,
-   "entry": 1045.78,
-   "stop": 948.37,
-   "target": 1289.3,
-   "r_multiple": 2.5,
-   "mcap_b": 93.8,
-   "atr_pct": 6.21,
-   "rel_vol": 1.64,
-   "chg1": 7.67,
-   "dist_ma150_pct": 24.2,
-   "score": 4,
-   "note": "Volume surge; +7.7% on 1.64x vol; 24.2% above MA150; ATR 6.21%"
-  },
-  {
-   "symbol": "MU",
-   "name": "Micron Technology, Inc.",
-   "setup": "Volume surge",
-   "price": 1097.39,
-   "entry": 1097.39,
-   "stop": 1030.08,
-   "target": 1265.67,
-   "r_multiple": 2.5,
-   "mcap_b": 1239.4,
-   "atr_pct": 4.09,
-   "rel_vol": 1.83,
-   "chg1": 3.03,
-   "dist_ma150_pct": 40.0,
-   "score": 4,
-   "note": "Volume surge; +3.0% on 1.83x vol; 40.0% above MA150; ATR 4.09%"
-  },
-  {
-   "symbol": "COHR",
-   "name": "Coherent Corp.",
-   "setup": "Volume surge",
-   "price": 319.19,
-   "entry": 319.19,
-   "stop": 288.15,
-   "target": 396.79,
-   "r_multiple": 2.5,
-   "mcap_b": 62.5,
-   "atr_pct": 6.48,
-   "rel_vol": 1.8,
-   "chg1": 10.9,
-   "dist_ma150_pct": 1.1,
-   "score": 3,
-   "note": "Volume surge; +10.9% on 1.8x vol; 1.1% above MA150; ATR 6.48%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MSTR moved +4.8% on 0.83x volume",
   "NVTS moved +4.4% on 1.25x volume",
@@ -7512,7 +7443,6 @@
   "LQDA moved -7.5% on 9.28x volume"
  ],
  "grouped_date": "2026-10-01",
- "scan_note": "universe 306, candidates 6, ideas 4",
  "held_missing": [],
- "api_calls": 588
+ "api_calls": 576
 }
