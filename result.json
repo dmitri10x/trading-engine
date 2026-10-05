@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-05T12:32:32.507148Z",
+ "mode": "midday",
+ "as_of": "2026-10-05T17:51:55.698180Z",
  "market": {
   "SPY": {
    "close": 769.64,
@@ -7416,25 +7416,7 @@
    "last_date": "2026-10-02"
   }
  },
- "ideas": [
-  {
-   "symbol": "MXL",
-   "name": "MaxLinear, Inc. Common Stock",
-   "setup": "Breakout",
-   "price": 105.93,
-   "entry": 105.93,
-   "stop": 95.25,
-   "target": 137.97,
-   "r_multiple": 3.0,
-   "mcap_b": 9.6,
-   "atr_pct": 6.72,
-   "rel_vol": 1.63,
-   "chg1": 14.99,
-   "dist_ma150_pct": 62.0,
-   "score": 4,
-   "note": "Breakout; +15.0% on 1.63x vol; 62.0% above MA150; ATR 6.72%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "TSLA moved +4.7% on 1.44x volume",
   "SPCX moved +7.4% on 1.27x volume",
@@ -7473,7 +7455,6 @@
   "KORU moved +8.8% on 1.05x volume"
  ],
  "grouped_date": "2026-10-02",
- "scan_note": "universe 306, candidates 4, ideas 1",
  "held_missing": [],
- "api_calls": 586
+ "api_calls": 581
 }

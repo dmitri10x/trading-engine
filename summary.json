@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-05T12:32:32.507148Z",
+ "mode": "midday",
+ "as_of": "2026-10-05T17:51:55.698180Z",
  "market": {
   "SPY": {
    "close": 769.64,
@@ -364,62 +364,16 @@
    "note": "Below MA150 (288.56). Rule broken: not a hold under the system.",
    "alerts": [],
    "last_date": "2026-10-02"
-  },
-  "MXL": {
-   "close": 105.93,
-   "ma150": 65.37,
-   "ma150_full": true,
-   "ma20": 80.51,
-   "ma50": 72.65,
-   "atr": 7.12,
-   "atr_pct": 6.72,
-   "avg_vol": 2944723,
-   "rel_vol": 1.63,
-   "hi20": 106.54,
-   "hi52": 128.3,
-   "lo20": 59.02,
-   "chg1": 14.99,
-   "chg5": 12.88,
-   "above_ma150": true,
-   "dist_ma150_pct": 62.0,
-   "stop": 95.25,
-   "target": 127.29,
-   "status": "Hold",
-   "note": "62.0% above MA150, trend intact.",
-   "alerts": [
-    "moved +15.0% on 1.63x volume"
-   ],
-   "last_date": "2026-10-02"
   }
  },
- "ideas": [
-  {
-   "symbol": "MXL",
-   "name": "MaxLinear, Inc. Common Stock",
-   "setup": "Breakout",
-   "price": 105.93,
-   "entry": 105.93,
-   "stop": 95.25,
-   "target": 137.97,
-   "r_multiple": 3.0,
-   "mcap_b": 9.6,
-   "atr_pct": 6.72,
-   "rel_vol": 1.63,
-   "chg1": 14.99,
-   "dist_ma150_pct": 62.0,
-   "score": 4,
-   "note": "Breakout; +15.0% on 1.63x vol; 62.0% above MA150; ATR 6.72%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "TSLA moved +4.7% on 1.44x volume",
-  "SPCX moved +7.4% on 1.27x volume",
-  "MXL moved +15.0% on 1.63x volume"
+  "SPCX moved +7.4% on 1.27x volume"
  ],
  "grouped_date": "2026-10-02",
- "scan_note": "universe 306, candidates 4, ideas 1",
  "held_missing": [],
- "api_calls": 586,
+ "api_calls": 581,
  "held": [
   "MARA",
   "MSTR",
