@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-06T12:31:05.045278Z",
+ "mode": "midday",
+ "as_of": "2026-10-06T17:50:58.957253Z",
  "market": {
   "SPY": {
    "close": 774.83,
@@ -7422,93 +7422,7 @@
    "last_date": "2026-10-05"
   }
  },
- "ideas": [
-  {
-   "symbol": "PTC",
-   "name": "PTC, INC",
-   "setup": "Volume surge",
-   "price": 192.26,
-   "entry": 192.26,
-   "stop": 180.28,
-   "target": 222.21,
-   "r_multiple": 2.5,
-   "mcap_b": 20.9,
-   "atr_pct": 4.15,
-   "rel_vol": 16.89,
-   "chg1": 33.49,
-   "dist_ma150_pct": 38.3,
-   "score": 5,
-   "note": "Volume surge; +33.5% on 16.89x vol; 38.3% above MA150; ATR 4.15%"
-  },
-  {
-   "symbol": "XP",
-   "name": "XP Inc. Class A Common Stock",
-   "setup": "Volume surge",
-   "price": 28.15,
-   "entry": 28.15,
-   "stop": 26.2,
-   "target": 33.02,
-   "r_multiple": 2.5,
-   "mcap_b": 14.3,
-   "atr_pct": 4.62,
-   "rel_vol": 5.85,
-   "chg1": 30.93,
-   "dist_ma150_pct": 55.6,
-   "score": 5,
-   "note": "Volume surge; +30.9% on 5.85x vol; 55.6% above MA150; ATR 4.62%"
-  },
-  {
-   "symbol": "PCVX",
-   "name": "Vaxcyte, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 73.82,
-   "entry": 73.82,
-   "stop": 66.95,
-   "target": 90.99,
-   "r_multiple": 2.5,
-   "mcap_b": 11.0,
-   "atr_pct": 6.21,
-   "rel_vol": 9.98,
-   "chg1": 30.7,
-   "dist_ma150_pct": 30.7,
-   "score": 5,
-   "note": "Volume surge; +30.7% on 9.98x vol; 30.7% above MA150; ATR 6.21%"
-  },
-  {
-   "symbol": "RXO",
-   "name": "RXO, Inc.",
-   "setup": "Volume surge",
-   "price": 28.65,
-   "entry": 28.65,
-   "stop": 26.41,
-   "target": 34.25,
-   "r_multiple": 2.5,
-   "mcap_b": 4.7,
-   "atr_pct": 5.21,
-   "rel_vol": 10.9,
-   "chg1": 22.54,
-   "dist_ma150_pct": 34.7,
-   "score": 5,
-   "note": "Volume surge; +22.5% on 10.9x vol; 34.7% above MA150; ATR 5.21%"
-  },
-  {
-   "symbol": "NU",
-   "name": "Nu Holdings Ltd.",
-   "setup": "Volume surge",
-   "price": 15.18,
-   "entry": 15.18,
-   "stop": 14.23,
-   "target": 17.55,
-   "r_multiple": 2.5,
-   "mcap_b": 73.3,
-   "atr_pct": 4.18,
-   "rel_vol": 2.37,
-   "chg1": 13.03,
-   "dist_ma150_pct": 9.2,
-   "score": 4,
-   "note": "Volume surge; +13.0% on 2.37x vol; 9.2% above MA150; ATR 4.18%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "AFRM moved +5.6% on 1.06x volume",
   "SPCX moved +7.6% on 1.44x volume",
@@ -7550,7 +7464,6 @@
   "NVDL moved +4.3% on 1.18x volume"
  ],
  "grouped_date": "2026-10-05",
- "scan_note": "universe 306, candidates 6, ideas 5",
  "held_missing": [],
- "api_calls": 585
+ "api_calls": 579
 }
