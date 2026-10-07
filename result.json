@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-07T12:33:57.268366Z",
+ "mode": "midday",
+ "as_of": "2026-10-07T17:52:13.507743Z",
  "market": {
   "SPY": {
    "close": 779.09,
@@ -7434,93 +7434,7 @@
    "last_date": "2026-10-06"
   }
  },
- "ideas": [
-  {
-   "symbol": "PENG",
-   "name": "Penguin Solutions, Inc. Ordinary Shares",
-   "setup": "Breakout",
-   "price": 64.21,
-   "entry": 64.21,
-   "stop": 58.93,
-   "target": 80.05,
-   "r_multiple": 3.0,
-   "mcap_b": 3.3,
-   "atr_pct": 5.48,
-   "rel_vol": 10.02,
-   "chg1": 5.77,
-   "dist_ma150_pct": 36.6,
-   "score": 5,
-   "note": "Breakout; +5.8% on 10.02x vol; 36.6% above MA150; ATR 5.48%"
-  },
-  {
-   "symbol": "MRVL",
-   "name": "Marvell Technology, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 287.01,
-   "entry": 287.01,
-   "stop": 266.7,
-   "target": 337.78,
-   "r_multiple": 2.5,
-   "mcap_b": 257.9,
-   "atr_pct": 4.72,
-   "rel_vol": 2.97,
-   "chg1": 5.81,
-   "dist_ma150_pct": 45.0,
-   "score": 5,
-   "note": "Volume surge; +5.8% on 2.97x vol; 45.0% above MA150; ATR 4.72%"
-  },
-  {
-   "symbol": "CIEN",
-   "name": "Ciena Corporation",
-   "setup": "Breakout",
-   "price": 443.65,
-   "entry": 443.65,
-   "stop": 411.16,
-   "target": 541.12,
-   "r_multiple": 3.0,
-   "mcap_b": 62.9,
-   "atr_pct": 4.88,
-   "rel_vol": 2.48,
-   "chg1": 13.85,
-   "dist_ma150_pct": 2.0,
-   "score": 4,
-   "note": "Breakout; +13.8% on 2.48x vol; 2.0% above MA150; ATR 4.88%"
-  },
-  {
-   "symbol": "CEG",
-   "name": "Constellation Energy Corporation Common Stock",
-   "setup": "Volume surge",
-   "price": 300.4,
-   "entry": 300.4,
-   "stop": 281.09,
-   "target": 348.67,
-   "r_multiple": 2.5,
-   "mcap_b": 106.4,
-   "atr_pct": 4.28,
-   "rel_vol": 4.36,
-   "chg1": 12.25,
-   "dist_ma150_pct": 7.9,
-   "score": 4,
-   "note": "Volume surge; +12.2% on 4.36x vol; 7.9% above MA150; ATR 4.28%"
-  },
-  {
-   "symbol": "ALAB",
-   "name": "Astera Labs, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 389.8,
-   "entry": 389.8,
-   "stop": 355.26,
-   "target": 476.15,
-   "r_multiple": 2.5,
-   "mcap_b": 67.6,
-   "atr_pct": 5.91,
-   "rel_vol": 1.6,
-   "chg1": 7.58,
-   "dist_ma150_pct": 43.0,
-   "score": 4,
-   "note": "Volume surge; +7.6% on 1.6x vol; 43.0% above MA150; ATR 5.91%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "NNE moved +6.3% on 1.47x volume",
   "MRVL moved +5.8% on 2.97x volume",
@@ -7568,7 +7482,6 @@
   "NRG moved +7.0% on 1.6x volume"
  ],
  "grouped_date": "2026-10-06",
- "scan_note": "universe 306, candidates 7, ideas 5",
  "held_missing": [],
- "api_calls": 593
+ "api_calls": 582
 }
