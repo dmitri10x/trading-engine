@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-08T12:33:48.334720Z",
+ "mode": "midday",
+ "as_of": "2026-10-08T17:52:48.853281Z",
  "market": {
   "SPY": {
    "close": 777.22,
@@ -370,65 +370,19 @@
    "note": "Below MA150 (288.56). Rule broken: not a hold under the system.",
    "alerts": [],
    "last_date": "2026-10-07"
-  },
-  "PENG": {
-   "close": 72.61,
-   "ma150": 47.35,
-   "ma150_full": true,
-   "ma20": 55.1,
-   "ma50": 54.13,
-   "atr": 4.02,
-   "atr_pct": 5.53,
-   "avg_vol": 2281091,
-   "rel_vol": 9.21,
-   "hi20": 76.0999,
-   "hi52": 89.86,
-   "lo20": 46.19,
-   "chg1": 13.08,
-   "chg5": 32.77,
-   "above_ma150": true,
-   "dist_ma150_pct": 53.4,
-   "stop": 66.58,
-   "target": 84.67,
-   "status": "Hold",
-   "note": "53.4% above MA150, trend intact.",
-   "alerts": [
-    "moved +13.1% on 9.21x volume"
-   ],
-   "last_date": "2026-10-07"
   }
  },
- "ideas": [
-  {
-   "symbol": "PENG",
-   "name": "Penguin Solutions, Inc. Ordinary Shares",
-   "setup": "Volume surge",
-   "price": 72.61,
-   "entry": 72.61,
-   "stop": 66.58,
-   "target": 87.69,
-   "r_multiple": 2.5,
-   "mcap_b": 3.7,
-   "atr_pct": 5.53,
-   "rel_vol": 9.21,
-   "chg1": 13.08,
-   "dist_ma150_pct": 53.4,
-   "score": 5,
-   "note": "Volume surge; +13.1% on 9.21x vol; 53.4% above MA150; ATR 5.53%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MARA moved -5.6% on 0.85x volume",
   "MSTR moved -6.8% on 0.98x volume",
   "CLSK moved -6.3% on 0.94x volume",
   "MP moved -4.6% on 1.15x volume",
-  "NVTS moved -5.6% on 1.28x volume",
-  "PENG moved +13.1% on 9.21x volume"
+  "NVTS moved -5.6% on 1.28x volume"
  ],
  "grouped_date": "2026-10-07",
- "scan_note": "universe 306, candidates 2, ideas 1",
  "held_missing": [],
- "api_calls": 586,
+ "api_calls": 573,
  "held": [
   "MARA",
   "MSTR",

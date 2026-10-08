@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-08T12:33:48.334720Z",
+ "mode": "midday",
+ "as_of": "2026-10-08T17:52:48.853281Z",
  "market": {
   "SPY": {
    "close": 777.22,
@@ -7416,25 +7416,7 @@
    "last_date": "2026-10-07"
   }
  },
- "ideas": [
-  {
-   "symbol": "PENG",
-   "name": "Penguin Solutions, Inc. Ordinary Shares",
-   "setup": "Volume surge",
-   "price": 72.61,
-   "entry": 72.61,
-   "stop": 66.58,
-   "target": 87.69,
-   "r_multiple": 2.5,
-   "mcap_b": 3.7,
-   "atr_pct": 5.53,
-   "rel_vol": 9.21,
-   "chg1": 13.08,
-   "dist_ma150_pct": 53.4,
-   "score": 5,
-   "note": "Volume surge; +13.1% on 9.21x vol; 53.4% above MA150; ATR 5.53%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MARA moved -5.6% on 0.85x volume",
   "MSTR moved -6.8% on 0.98x volume",
@@ -7473,7 +7455,6 @@
   "KORU moved -4.6% on 1.2x volume"
  ],
  "grouped_date": "2026-10-07",
- "scan_note": "universe 306, candidates 2, ideas 1",
  "held_missing": [],
- "api_calls": 586
+ "api_calls": 573
 }
