@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-09T12:30:41.410280Z",
+ "mode": "midday",
+ "as_of": "2026-10-09T17:52:07.348267Z",
  "market": {
   "SPY": {
    "close": 773.93,
@@ -370,109 +370,19 @@
    "note": "Below MA150 (288.52). Rule broken: not a hold under the system.",
    "alerts": [],
    "last_date": "2026-10-08"
-  },
-  "ACN": {
-   "close": 208.36,
-   "ma150": 175.81,
-   "ma150_full": true,
-   "ma20": 189.0,
-   "ma50": 183.18,
-   "atr": 10.5,
-   "atr_pct": 5.04,
-   "avg_vol": 7028221,
-   "rel_vol": 1.72,
-   "hi20": 227.63,
-   "hi52": 291.09,
-   "lo20": 172.11,
-   "chg1": 5.96,
-   "chg5": -1.86,
-   "above_ma150": true,
-   "dist_ma150_pct": 18.5,
-   "stop": 192.6,
-   "target": 239.88,
-   "status": "Hold",
-   "note": "18.5% above MA150, trend intact.",
-   "alerts": [
-    "moved +6.0% on 1.72x volume"
-   ],
-   "last_date": "2026-10-08"
-  },
-  "CBOE": {
-   "close": 294.08,
-   "ma150": 292.92,
-   "ma150_full": true,
-   "ma20": 272.44,
-   "ma50": 286.74,
-   "atr": 11.83,
-   "atr_pct": 4.02,
-   "avg_vol": 1167812,
-   "rel_vol": 1.62,
-   "hi20": 298,
-   "hi52": 371.18,
-   "lo20": 252.82,
-   "chg1": 4.44,
-   "chg5": 6.09,
-   "above_ma150": true,
-   "dist_ma150_pct": 0.4,
-   "stop": 276.34,
-   "target": 329.56,
-   "status": "Watch",
-   "note": "Only 0.4% above MA150. One bad day flips it.",
-   "alerts": [
-    "moved +4.4% on 1.62x volume"
-   ],
-   "last_date": "2026-10-08"
   }
  },
- "ideas": [
-  {
-   "symbol": "ACN",
-   "name": "Accenture PLC",
-   "setup": "Volume surge",
-   "price": 208.36,
-   "entry": 208.36,
-   "stop": 192.6,
-   "target": 247.76,
-   "r_multiple": 2.5,
-   "mcap_b": 127.5,
-   "atr_pct": 5.04,
-   "rel_vol": 1.72,
-   "chg1": 5.96,
-   "dist_ma150_pct": 18.5,
-   "score": 3,
-   "note": "Volume surge; +6.0% on 1.72x vol; 18.5% above MA150; ATR 5.04%"
-  },
-  {
-   "symbol": "CBOE",
-   "name": "Cboe Global Markets, Inc.",
-   "setup": "Volume surge",
-   "price": 294.08,
-   "entry": 294.08,
-   "stop": 276.34,
-   "target": 338.43,
-   "r_multiple": 2.5,
-   "mcap_b": 30.7,
-   "atr_pct": 4.02,
-   "rel_vol": 1.62,
-   "chg1": 4.44,
-   "dist_ma150_pct": 0.4,
-   "score": 3,
-   "note": "Volume surge; +4.4% on 1.62x vol; 0.4% above MA150; ATR 4.02%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MARA moved -4.3% on 1.11x volume",
   "CLSK moved -7.7% on 1.53x volume",
   "ORCL moved -5.5% on 1.23x volume",
   "NNE moved -4.7% on 1.26x volume",
-  "SPCX moved -4.2% on 0.74x volume",
-  "ACN moved +6.0% on 1.72x volume",
-  "CBOE moved +4.4% on 1.62x volume"
+  "SPCX moved -4.2% on 0.74x volume"
  ],
  "grouped_date": "2026-10-08",
- "scan_note": "universe 306, candidates 3, ideas 2",
  "held_missing": [],
- "api_calls": 579,
+ "api_calls": 577,
  "held": [
   "MARA",
   "MSTR",

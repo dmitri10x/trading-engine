@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-09T12:30:41.410280Z",
+ "mode": "midday",
+ "as_of": "2026-10-09T17:52:07.348267Z",
  "market": {
   "SPY": {
    "close": 773.93,
@@ -7464,42 +7464,7 @@
    "last_date": "2026-10-08"
   }
  },
- "ideas": [
-  {
-   "symbol": "ACN",
-   "name": "Accenture PLC",
-   "setup": "Volume surge",
-   "price": 208.36,
-   "entry": 208.36,
-   "stop": 192.6,
-   "target": 247.76,
-   "r_multiple": 2.5,
-   "mcap_b": 127.5,
-   "atr_pct": 5.04,
-   "rel_vol": 1.72,
-   "chg1": 5.96,
-   "dist_ma150_pct": 18.5,
-   "score": 3,
-   "note": "Volume surge; +6.0% on 1.72x vol; 18.5% above MA150; ATR 5.04%"
-  },
-  {
-   "symbol": "CBOE",
-   "name": "Cboe Global Markets, Inc.",
-   "setup": "Volume surge",
-   "price": 294.08,
-   "entry": 294.08,
-   "stop": 276.34,
-   "target": 338.43,
-   "r_multiple": 2.5,
-   "mcap_b": 30.7,
-   "atr_pct": 4.02,
-   "rel_vol": 1.62,
-   "chg1": 4.44,
-   "dist_ma150_pct": 0.4,
-   "score": 3,
-   "note": "Volume surge; +4.4% on 1.62x vol; 0.4% above MA150; ATR 4.02%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "MARA moved -4.3% on 1.11x volume",
   "CLSK moved -7.7% on 1.53x volume",
@@ -7562,7 +7527,6 @@
   "CBOE moved +4.4% on 1.62x volume"
  ],
  "grouped_date": "2026-10-08",
- "scan_note": "universe 306, candidates 3, ideas 2",
  "held_missing": [],
- "api_calls": 579
+ "api_calls": 577
 }
