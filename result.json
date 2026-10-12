@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-10-12T12:46:03.567790Z",
+ "mode": "midday",
+ "as_of": "2026-10-12T17:52:52.089131Z",
  "market": {
   "SPY": {
    "close": 778.57,
@@ -7436,93 +7436,7 @@
    "last_date": "2026-10-09"
   }
  },
- "ideas": [
-  {
-   "symbol": "HUM",
-   "name": "Humana Inc.",
-   "setup": "Volume surge",
-   "price": 431.87,
-   "entry": 431.87,
-   "stop": 402.99,
-   "target": 504.07,
-   "r_multiple": 2.5,
-   "mcap_b": 51.9,
-   "atr_pct": 4.46,
-   "rel_vol": 3.9,
-   "chg1": 11.56,
-   "dist_ma150_pct": 34.3,
-   "score": 5,
-   "note": "Volume surge; +11.6% on 3.9x vol; 34.3% above MA150; ATR 4.46%"
-  },
-  {
-   "symbol": "MRNA",
-   "name": "Moderna, Inc. Common Stock",
-   "setup": "Breakout",
-   "price": 225,
-   "entry": 225,
-   "stop": 200.87,
-   "target": 297.39,
-   "r_multiple": 3.0,
-   "mcap_b": 89.8,
-   "atr_pct": 7.15,
-   "rel_vol": 1.71,
-   "chg1": 14.21,
-   "dist_ma150_pct": 172.5,
-   "score": 4,
-   "note": "Breakout; +14.2% on 1.71x vol; 172.5% above MA150; ATR 7.15%"
-  },
-  {
-   "symbol": "FSLY",
-   "name": "Fastly, Inc. Class A Common Stock",
-   "setup": "Volume surge",
-   "price": 29.3,
-   "entry": 29.3,
-   "stop": 25.54,
-   "target": 38.7,
-   "r_multiple": 2.5,
-   "mcap_b": 4.7,
-   "atr_pct": 8.56,
-   "rel_vol": 1.95,
-   "chg1": 15.86,
-   "dist_ma150_pct": 27.4,
-   "score": 4,
-   "note": "Volume surge; +15.9% on 1.95x vol; 27.4% above MA150; ATR 8.56%"
-  },
-  {
-   "symbol": "PENG",
-   "name": "Penguin Solutions, Inc. Ordinary Shares",
-   "setup": "Volume surge",
-   "price": 76.28,
-   "entry": 76.28,
-   "stop": 69.24,
-   "target": 93.88,
-   "r_multiple": 2.5,
-   "mcap_b": 3.9,
-   "atr_pct": 6.15,
-   "rel_vol": 1.65,
-   "chg1": 6.58,
-   "dist_ma150_pct": 58.6,
-   "score": 4,
-   "note": "Volume surge; +6.6% on 1.65x vol; 58.6% above MA150; ATR 6.15%"
-  },
-  {
-   "symbol": "HIMS",
-   "name": "Hims & Hers Health, Inc.",
-   "setup": "Volume surge",
-   "price": 30.92,
-   "entry": 30.92,
-   "stop": 28.15,
-   "target": 37.85,
-   "r_multiple": 2.5,
-   "mcap_b": 7.2,
-   "atr_pct": 5.97,
-   "rel_vol": 1.63,
-   "chg1": 10.19,
-   "dist_ma150_pct": 10.0,
-   "score": 3,
-   "note": "Volume surge; +10.2% on 1.63x vol; 10.0% above MA150; ATR 5.97%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "AFRM moved +4.6% on 1.37x volume",
   "ORCL moved +4.2% on 0.76x volume",
@@ -7571,7 +7485,6 @@
   "GME moved +5.1% on 1.58x volume"
  ],
  "grouped_date": "2026-10-09",
- "scan_note": "universe 305, candidates 7, ideas 5",
  "held_missing": [],
- "api_calls": 592
+ "api_calls": 581
 }
