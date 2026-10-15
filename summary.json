@@ -1,6 +1,6 @@
 {
- "mode": "midday",
- "as_of": "2026-10-15T16:54:36.587687Z",
+ "mode": "close",
+ "as_of": "2026-10-15T20:30:50.512386Z",
  "market": {
   "SPY": {
    "close": 769.6,
@@ -397,7 +397,7 @@
  ],
  "grouped_date": "2026-10-14",
  "held_missing": [],
- "api_calls": 580,
+ "api_calls": 562,
  "held": [
   "MARA",
   "MSTR",
