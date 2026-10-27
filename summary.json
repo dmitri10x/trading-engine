@@ -1,6 +1,6 @@
 {
- "mode": "midday",
- "as_of": "2026-10-27T17:56:47.749149Z",
+ "mode": "close",
+ "as_of": "2026-10-27T21:28:11.204887Z",
  "market": {
   "SPY": {
    "close": 765.37,
@@ -1723,7 +1723,7 @@
  ],
  "grouped_date": "2026-10-26",
  "held_missing": [],
- "api_calls": 624,
+ "api_calls": 625,
  "held": [
   "PONY",
   "TGTX",
