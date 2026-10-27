@@ -1,6 +1,6 @@
 {
  "mode": "close",
- "as_of": "2026-10-26T21:50:07.230434Z",
+ "as_of": "2026-10-26T23:44:22.779967Z",
  "market": {
   "SPY": {
    "close": 759.97,
@@ -8038,5 +8038,5 @@
  ],
  "grouped_date": "2026-10-23",
  "held_missing": [],
- "api_calls": 642
+ "api_calls": 638
 }
