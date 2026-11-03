@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-02T21:41:25.978479Z",
+ "mode": "premarket",
+ "as_of": "2026-11-03T00:01:55.653671Z",
  "market": {
   "SPY": {
    "close": 755.72,
@@ -8092,7 +8092,25 @@
    "last_date": "2026-10-30"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "VLO",
+   "name": "Valero Energy Corporation",
+   "setup": "Volume surge",
+   "price": 399.66,
+   "entry": 399.66,
+   "stop": 371.4,
+   "target": 470.31,
+   "r_multiple": 2.5,
+   "mcap_b": 111.5,
+   "atr_pct": 4.71,
+   "rel_vol": 1.64,
+   "chg1": 3.92,
+   "dist_ma150_pct": 28.4,
+   "score": 3,
+   "note": "Volume surge; +3.9% on 1.64x vol; 28.4% above MA150; ATR 4.71%"
+  }
+ ],
  "alerts": [
   "PONY moved -5.7% on 1.21x volume",
   "TGTX moved +5.3% on 1.93x volume",
@@ -8229,6 +8247,7 @@
   "QLD moved -6.9% on 1.91x volume"
  ],
  "grouped_date": "2026-10-30",
+ "scan_note": "universe 326, candidates 1, ideas 1",
  "held_missing": [],
  "api_calls": 623
 }

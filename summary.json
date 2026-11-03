@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-02T21:41:25.978479Z",
+ "mode": "premarket",
+ "as_of": "2026-11-03T00:01:55.653671Z",
  "market": {
   "SPY": {
    "close": 755.72,
@@ -1638,9 +1638,51 @@
    "note": "Below MA150 (4.38). Rule broken: not a hold under the system.",
    "alerts": [],
    "last_date": "2026-10-30"
+  },
+  "VLO": {
+   "close": 399.66,
+   "ma150": 311.31,
+   "ma150_full": true,
+   "ma20": 425.85,
+   "ma50": 397.61,
+   "atr": 18.84,
+   "atr_pct": 4.71,
+   "avg_vol": 2583949,
+   "rel_vol": 1.64,
+   "hi20": 461.5198,
+   "hi52": 461.5198,
+   "lo20": 377.45,
+   "chg1": 3.92,
+   "chg5": -4.68,
+   "above_ma150": true,
+   "dist_ma150_pct": 28.4,
+   "stop": 371.4,
+   "target": 461.52,
+   "status": "Hold",
+   "note": "28.4% above MA150, trend intact.",
+   "alerts": [],
+   "last_date": "2026-10-30"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "VLO",
+   "name": "Valero Energy Corporation",
+   "setup": "Volume surge",
+   "price": 399.66,
+   "entry": 399.66,
+   "stop": 371.4,
+   "target": 470.31,
+   "r_multiple": 2.5,
+   "mcap_b": 111.5,
+   "atr_pct": 4.71,
+   "rel_vol": 1.64,
+   "chg1": 3.92,
+   "dist_ma150_pct": 28.4,
+   "score": 3,
+   "note": "Volume surge; +3.9% on 1.64x vol; 28.4% above MA150; ATR 4.71%"
+  }
+ ],
  "alerts": [
   "PONY moved -5.7% on 1.21x volume",
   "TGTX moved +5.3% on 1.93x volume",
@@ -1683,6 +1725,7 @@
   "BMNR moved -6.8% on 1.24x volume"
  ],
  "grouped_date": "2026-10-30",
+ "scan_note": "universe 326, candidates 1, ideas 1",
  "held_missing": [],
  "api_calls": 623,
  "held": [
