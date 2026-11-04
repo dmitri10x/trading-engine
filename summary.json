@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-03T22:29:37.117931Z",
+ "mode": "premarket",
+ "as_of": "2026-11-04T00:32:10.687275Z",
  "market": {
   "SPY": {
    "close": 752.1,
@@ -1606,9 +1606,96 @@
     "moved +7.2% on 1.1x volume"
    ],
    "last_date": "2026-11-02"
+  },
+  "TEM": {
+   "close": 78.48,
+   "ma150": 57.67,
+   "ma150_full": true,
+   "ma20": 69.88,
+   "ma50": 70.8,
+   "atr": 6.26,
+   "atr_pct": 7.98,
+   "avg_vol": 6435723,
+   "rel_vol": 2.65,
+   "hi20": 87.99,
+   "hi52": 90.53,
+   "lo20": 61.51,
+   "chg1": 8.67,
+   "chg5": 16.86,
+   "above_ma150": true,
+   "dist_ma150_pct": 36.1,
+   "stop": 69.08,
+   "target": 97.28,
+   "status": "Hold",
+   "note": "36.1% above MA150, trend intact.",
+   "alerts": [
+    "moved +8.7% on 2.65x volume"
+   ],
+   "last_date": "2026-11-02"
+  },
+  "CVNA": {
+   "close": 72,
+   "ma150": 68.32,
+   "ma150_full": true,
+   "ma20": 61.45,
+   "ma50": 65.83,
+   "atr": 3.59,
+   "atr_pct": 4.99,
+   "avg_vol": 9613613,
+   "rel_vol": 1.87,
+   "hi20": 73.1997,
+   "hi52": 97.378,
+   "lo20": 55.915,
+   "chg1": 5.43,
+   "chg5": 27.19,
+   "above_ma150": true,
+   "dist_ma150_pct": 5.4,
+   "stop": 66.61,
+   "target": 82.78,
+   "status": "Hold",
+   "note": "5.4% above MA150, trend intact.",
+   "alerts": [
+    "moved +5.4% on 1.87x volume"
+   ],
+   "last_date": "2026-11-02"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "TEM",
+   "name": "Tempus AI, Inc. Class A Common Stock",
+   "setup": "Volume surge",
+   "price": 78.48,
+   "entry": 78.48,
+   "stop": 69.08,
+   "target": 101.98,
+   "r_multiple": 2.5,
+   "mcap_b": 14.3,
+   "atr_pct": 7.98,
+   "rel_vol": 2.65,
+   "chg1": 8.67,
+   "dist_ma150_pct": 36.1,
+   "score": 5,
+   "note": "Volume surge; +8.7% on 2.65x vol; 36.1% above MA150; ATR 7.98%"
+  },
+  {
+   "symbol": "CVNA",
+   "name": "Carvana Co.",
+   "setup": "Volume surge",
+   "price": 72,
+   "entry": 72,
+   "stop": 66.61,
+   "target": 85.47,
+   "r_multiple": 2.5,
+   "mcap_b": 79.4,
+   "atr_pct": 4.99,
+   "rel_vol": 1.87,
+   "chg1": 5.43,
+   "dist_ma150_pct": 5.4,
+   "score": 3,
+   "note": "Volume surge; +5.4% on 1.87x vol; 5.4% above MA150; ATR 4.99%"
+  }
+ ],
  "alerts": [
   "CCJ moved -4.6% on 1.37x volume",
   "RKLB moved -4.9% on 0.84x volume",
@@ -1632,11 +1719,14 @@
   "SMMT moved -7.7% on 0.76x volume",
   "WULF moved -6.7% on 0.87x volume",
   "BB moved -4.8% on 0.93x volume",
-  "AGNT moved +7.2% on 1.1x volume"
+  "AGNT moved +7.2% on 1.1x volume",
+  "TEM moved +8.7% on 2.65x volume",
+  "CVNA moved +5.4% on 1.87x volume"
  ],
  "grouped_date": "2026-11-02",
+ "scan_note": "universe 328, candidates 2, ideas 2",
  "held_missing": [],
- "api_calls": 631,
+ "api_calls": 636,
  "held": [
   "PONY",
   "TGTX",

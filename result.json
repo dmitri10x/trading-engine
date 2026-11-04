@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-03T22:29:37.117931Z",
+ "mode": "premarket",
+ "as_of": "2026-11-04T00:32:10.687275Z",
  "market": {
   "SPY": {
    "close": 752.1,
@@ -8066,7 +8066,42 @@
    "last_date": "2026-11-02"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "TEM",
+   "name": "Tempus AI, Inc. Class A Common Stock",
+   "setup": "Volume surge",
+   "price": 78.48,
+   "entry": 78.48,
+   "stop": 69.08,
+   "target": 101.98,
+   "r_multiple": 2.5,
+   "mcap_b": 14.3,
+   "atr_pct": 7.98,
+   "rel_vol": 2.65,
+   "chg1": 8.67,
+   "dist_ma150_pct": 36.1,
+   "score": 5,
+   "note": "Volume surge; +8.7% on 2.65x vol; 36.1% above MA150; ATR 7.98%"
+  },
+  {
+   "symbol": "CVNA",
+   "name": "Carvana Co.",
+   "setup": "Volume surge",
+   "price": 72,
+   "entry": 72,
+   "stop": 66.61,
+   "target": 85.47,
+   "r_multiple": 2.5,
+   "mcap_b": 79.4,
+   "atr_pct": 4.99,
+   "rel_vol": 1.87,
+   "chg1": 5.43,
+   "dist_ma150_pct": 5.4,
+   "score": 3,
+   "note": "Volume surge; +5.4% on 1.87x vol; 5.4% above MA150; ATR 4.99%"
+  }
+ ],
  "alerts": [
   "CCJ moved -4.6% on 1.37x volume",
   "RKLB moved -4.9% on 0.84x volume",
@@ -8154,6 +8189,7 @@
   "DAL moved +4.1% on 1.08x volume"
  ],
  "grouped_date": "2026-11-02",
+ "scan_note": "universe 328, candidates 2, ideas 2",
  "held_missing": [],
- "api_calls": 631
+ "api_calls": 636
 }
