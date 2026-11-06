@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-05T22:48:52.652679Z",
+ "mode": "premarket",
+ "as_of": "2026-11-06T00:55:15.225861Z",
  "market": {
   "SPY": {
    "close": 766.81,
@@ -8234,7 +8234,93 @@
    "last_date": "2026-11-04"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "CNC",
+   "name": "Centene Corporation",
+   "setup": "Volume surge",
+   "price": 76.01,
+   "entry": 76.01,
+   "stop": 70.91,
+   "target": 88.76,
+   "r_multiple": 2.5,
+   "mcap_b": 37.6,
+   "atr_pct": 4.47,
+   "rel_vol": 3.11,
+   "chg1": 12.64,
+   "dist_ma150_pct": 24.5,
+   "score": 5,
+   "note": "Volume surge; +12.6% on 3.11x vol; 24.5% above MA150; ATR 4.47%"
+  },
+  {
+   "symbol": "EXPE",
+   "name": "Expedia Group, Inc. Common Stock",
+   "setup": "Volume surge",
+   "price": 315.88,
+   "entry": 315.88,
+   "stop": 294.19,
+   "target": 370.11,
+   "r_multiple": 2.5,
+   "mcap_b": 37.9,
+   "atr_pct": 4.58,
+   "rel_vol": 2.92,
+   "chg1": 10.54,
+   "dist_ma150_pct": 18.0,
+   "score": 5,
+   "note": "Volume surge; +10.5% on 2.92x vol; 18.0% above MA150; ATR 4.58%"
+  },
+  {
+   "symbol": "CVNA",
+   "name": "Carvana Co.",
+   "setup": "Volume surge",
+   "price": 77.56,
+   "entry": 77.56,
+   "stop": 72.1,
+   "target": 91.21,
+   "r_multiple": 2.5,
+   "mcap_b": 85.6,
+   "atr_pct": 4.69,
+   "rel_vol": 2.03,
+   "chg1": 8.81,
+   "dist_ma150_pct": 13.3,
+   "score": 5,
+   "note": "Volume surge; +8.8% on 2.03x vol; 13.3% above MA150; ATR 4.69%"
+  },
+  {
+   "symbol": "MDLN",
+   "name": "Medline Inc. Class A common stock",
+   "setup": "Volume surge",
+   "price": 40.35,
+   "entry": 40.35,
+   "stop": 37.92,
+   "target": 46.42,
+   "r_multiple": 2.5,
+   "mcap_b": 35.5,
+   "atr_pct": 4.02,
+   "rel_vol": 2.88,
+   "chg1": 18.36,
+   "dist_ma150_pct": 6.7,
+   "score": 4,
+   "note": "Volume surge; +18.4% on 2.88x vol; 6.7% above MA150; ATR 4.02%"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc. Common Stock",
+   "setup": "Volume surge",
+   "price": 106.7,
+   "entry": 106.7,
+   "stop": 97.15,
+   "target": 130.57,
+   "r_multiple": 2.5,
+   "mcap_b": 16.1,
+   "atr_pct": 5.96,
+   "rel_vol": 4.06,
+   "chg1": 11.12,
+   "dist_ma150_pct": 2.4,
+   "score": 4,
+   "note": "Volume surge; +11.1% on 4.06x vol; 2.4% above MA150; ATR 5.96%"
+  }
+ ],
  "alerts": [
   "PONY moved +4.4% on 1.47x volume",
   "AMZN moved +6.1% on 2.18x volume",
@@ -8406,6 +8492,7 @@
   "EW moved +4.4% on 1.86x volume"
  ],
  "grouped_date": "2026-11-04",
+ "scan_note": "universe 328, candidates 8, ideas 5",
  "held_missing": [],
- "api_calls": 622
+ "api_calls": 638
 }
