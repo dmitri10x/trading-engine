@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-06T22:21:20.120289Z",
+ "mode": "premarket",
+ "as_of": "2026-11-07T00:02:24.369558Z",
  "market": {
   "SPY": {
    "close": 733,
@@ -8286,7 +8286,25 @@
    "last_date": "2026-11-05"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "U",
+   "name": "Unity Software Inc.",
+   "setup": "Volume surge",
+   "price": 48.8,
+   "entry": 48.8,
+   "stop": 45.25,
+   "target": 57.67,
+   "r_multiple": 2.5,
+   "mcap_b": 21.5,
+   "atr_pct": 4.85,
+   "rel_vol": 5.18,
+   "chg1": 14.93,
+   "dist_ma150_pct": 41.6,
+   "score": 5,
+   "note": "Volume surge; +14.9% on 5.18x vol; 41.6% above MA150; ATR 4.85%"
+  }
+ ],
  "alerts": [
   "PONY moved -5.9% on 1.28x volume",
   "TGTX moved -5.9% on 1.32x volume",
@@ -8472,6 +8490,7 @@
   "MAGS moved -4.9% on 2.86x volume"
  ],
  "grouped_date": "2026-11-05",
+ "scan_note": "universe 329, candidates 3, ideas 1",
  "held_missing": [],
- "api_calls": 633
+ "api_calls": 629
 }

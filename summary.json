@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-06T22:21:20.120289Z",
+ "mode": "premarket",
+ "as_of": "2026-11-07T00:02:24.369558Z",
  "market": {
   "SPY": {
    "close": 733,
@@ -1626,9 +1626,53 @@
     "moved -8.4% on 1.13x volume"
    ],
    "last_date": "2026-11-05"
+  },
+  "U": {
+   "close": 48.8,
+   "ma150": 34.46,
+   "ma150_full": true,
+   "ma20": 41.79,
+   "ma50": 42.33,
+   "atr": 2.37,
+   "atr_pct": 4.85,
+   "avg_vol": 9844122,
+   "rel_vol": 5.18,
+   "hi20": 49.49,
+   "hi52": 52.15,
+   "lo20": 37.095,
+   "chg1": 14.93,
+   "chg5": 24.27,
+   "above_ma150": true,
+   "dist_ma150_pct": 41.6,
+   "stop": 45.25,
+   "target": 55.9,
+   "status": "Hold",
+   "note": "41.6% above MA150, trend intact.",
+   "alerts": [
+    "moved +14.9% on 5.18x volume"
+   ],
+   "last_date": "2026-11-05"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "U",
+   "name": "Unity Software Inc.",
+   "setup": "Volume surge",
+   "price": 48.8,
+   "entry": 48.8,
+   "stop": 45.25,
+   "target": 57.67,
+   "r_multiple": 2.5,
+   "mcap_b": 21.5,
+   "atr_pct": 4.85,
+   "rel_vol": 5.18,
+   "chg1": 14.93,
+   "dist_ma150_pct": 41.6,
+   "score": 5,
+   "note": "Volume surge; +14.9% on 5.18x vol; 41.6% above MA150; ATR 4.85%"
+  }
+ ],
  "alerts": [
   "PONY moved -5.9% on 1.28x volume",
   "TGTX moved -5.9% on 1.32x volume",
@@ -1674,11 +1718,13 @@
   "BB moved -4.5% on 2.19x volume",
   "DJT moved -10.5% on 3.13x volume",
   "BMNR moved -12.6% on 1.69x volume",
-  "AGNT moved -8.4% on 1.13x volume"
+  "AGNT moved -8.4% on 1.13x volume",
+  "U moved +14.9% on 5.18x volume"
  ],
  "grouped_date": "2026-11-05",
+ "scan_note": "universe 329, candidates 3, ideas 1",
  "held_missing": [],
- "api_calls": 633,
+ "api_calls": 629,
  "held": [
   "PONY",
   "TGTX",
