@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-09T22:15:48.967391Z",
+ "mode": "premarket",
+ "as_of": "2026-11-10T00:50:37.722084Z",
  "market": {
   "SPY": {
    "close": 735.29,
@@ -8096,7 +8096,59 @@
    "last_date": "2026-11-06"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "FROG",
+   "name": "JFrog Ltd. Ordinary Shares",
+   "setup": "Volume surge",
+   "price": 100.98,
+   "entry": 100.98,
+   "stop": 88.7,
+   "target": 131.68,
+   "r_multiple": 2.5,
+   "mcap_b": 12.5,
+   "atr_pct": 8.1,
+   "rel_vol": 3.41,
+   "chg1": 35.33,
+   "dist_ma150_pct": 24.4,
+   "score": 5,
+   "note": "Volume surge; +35.3% on 3.41x vol; 24.4% above MA150; ATR 8.1%"
+  },
+  {
+   "symbol": "U",
+   "name": "Unity Software Inc.",
+   "setup": "Volume surge",
+   "price": 51.49,
+   "entry": 51.49,
+   "stop": 47.6,
+   "target": 61.22,
+   "r_multiple": 2.5,
+   "mcap_b": 22.9,
+   "atr_pct": 5.04,
+   "rel_vol": 2.04,
+   "chg1": 5.51,
+   "dist_ma150_pct": 48.6,
+   "score": 5,
+   "note": "Volume surge; +5.5% on 2.04x vol; 48.6% above MA150; ATR 5.04%"
+  },
+  {
+   "symbol": "RVMD",
+   "name": "Revolution Medicines, Inc. Common Stock",
+   "setup": "Volume surge",
+   "price": 192.28,
+   "entry": 192.28,
+   "stop": 176.58,
+   "target": 231.53,
+   "r_multiple": 2.5,
+   "mcap_b": 41.6,
+   "atr_pct": 5.44,
+   "rel_vol": 2.09,
+   "chg1": 8.24,
+   "dist_ma150_pct": 8.3,
+   "score": 4,
+   "note": "Volume surge; +8.2% on 2.09x vol; 8.3% above MA150; ATR 5.44%"
+  }
+ ],
  "alerts": [
   "PONY moved +6.3% on 0.53x volume",
   "ACHR moved +14.7% on 1.28x volume",
@@ -8187,6 +8239,7 @@
   "MTZ moved +9.5% on 1.91x volume"
  ],
  "grouped_date": "2026-11-06",
+ "scan_note": "universe 329, candidates 3, ideas 3",
  "held_missing": [],
- "api_calls": 625
+ "api_calls": 636
 }

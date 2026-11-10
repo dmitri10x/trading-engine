@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-09T22:15:48.967391Z",
+ "mode": "premarket",
+ "as_of": "2026-11-10T00:50:37.722084Z",
  "market": {
   "SPY": {
    "close": 735.29,
@@ -1590,9 +1590,139 @@
     "moved -20.7% on 1.92x volume"
    ],
    "last_date": "2026-11-06"
+  },
+  "U": {
+   "close": 51.49,
+   "ma150": 34.66,
+   "ma150_full": true,
+   "ma20": 42.02,
+   "ma50": 42.49,
+   "atr": 2.6,
+   "atr_pct": 5.04,
+   "avg_vol": 11609471,
+   "rel_vol": 2.04,
+   "hi20": 52.91,
+   "hi52": 52.91,
+   "lo20": 37.095,
+   "chg1": 5.51,
+   "chg5": 36.58,
+   "above_ma150": true,
+   "dist_ma150_pct": 48.6,
+   "stop": 47.6,
+   "target": 59.27,
+   "status": "Hold",
+   "note": "48.6% above MA150, trend intact.",
+   "alerts": [
+    "moved +5.5% on 2.04x volume"
+   ],
+   "last_date": "2026-11-06"
+  },
+  "RVMD": {
+   "close": 192.28,
+   "ma150": 177.54,
+   "ma150_full": true,
+   "ma20": 189.16,
+   "ma50": 196.88,
+   "atr": 10.47,
+   "atr_pct": 5.44,
+   "avg_vol": 2147077,
+   "rel_vol": 2.09,
+   "hi20": 211.41,
+   "hi52": 224.31,
+   "lo20": 175.91,
+   "chg1": 8.24,
+   "chg5": 0.51,
+   "above_ma150": true,
+   "dist_ma150_pct": 8.3,
+   "stop": 176.58,
+   "target": 223.68,
+   "status": "Hold",
+   "note": "8.3% above MA150, trend intact.",
+   "alerts": [
+    "moved +8.2% on 2.09x volume"
+   ],
+   "last_date": "2026-11-06"
+  },
+  "FROG": {
+   "close": 100.98,
+   "ma150": 81.19,
+   "ma150_full": true,
+   "ma20": 93.63,
+   "ma50": 93.42,
+   "atr": 8.18,
+   "atr_pct": 8.1,
+   "avg_vol": 2064903,
+   "rel_vol": 3.41,
+   "hi20": 103.4,
+   "hi52": 105.7598,
+   "lo20": 73.975,
+   "chg1": 35.33,
+   "chg5": 6.98,
+   "above_ma150": true,
+   "dist_ma150_pct": 24.4,
+   "stop": 88.7,
+   "target": 125.54,
+   "status": "Hold",
+   "note": "24.4% above MA150, trend intact.",
+   "alerts": [
+    "moved +35.3% on 3.41x volume"
+   ],
+   "last_date": "2026-11-06"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "FROG",
+   "name": "JFrog Ltd. Ordinary Shares",
+   "setup": "Volume surge",
+   "price": 100.98,
+   "entry": 100.98,
+   "stop": 88.7,
+   "target": 131.68,
+   "r_multiple": 2.5,
+   "mcap_b": 12.5,
+   "atr_pct": 8.1,
+   "rel_vol": 3.41,
+   "chg1": 35.33,
+   "dist_ma150_pct": 24.4,
+   "score": 5,
+   "note": "Volume surge; +35.3% on 3.41x vol; 24.4% above MA150; ATR 8.1%"
+  },
+  {
+   "symbol": "U",
+   "name": "Unity Software Inc.",
+   "setup": "Volume surge",
+   "price": 51.49,
+   "entry": 51.49,
+   "stop": 47.6,
+   "target": 61.22,
+   "r_multiple": 2.5,
+   "mcap_b": 22.9,
+   "atr_pct": 5.04,
+   "rel_vol": 2.04,
+   "chg1": 5.51,
+   "dist_ma150_pct": 48.6,
+   "score": 5,
+   "note": "Volume surge; +5.5% on 2.04x vol; 48.6% above MA150; ATR 5.04%"
+  },
+  {
+   "symbol": "RVMD",
+   "name": "Revolution Medicines, Inc. Common Stock",
+   "setup": "Volume surge",
+   "price": 192.28,
+   "entry": 192.28,
+   "stop": 176.58,
+   "target": 231.53,
+   "r_multiple": 2.5,
+   "mcap_b": 41.6,
+   "atr_pct": 5.44,
+   "rel_vol": 2.09,
+   "chg1": 8.24,
+   "dist_ma150_pct": 8.3,
+   "score": 4,
+   "note": "Volume surge; +8.2% on 2.09x vol; 8.3% above MA150; ATR 5.44%"
+  }
+ ],
  "alerts": [
   "PONY moved +6.3% on 0.53x volume",
   "ACHR moved +14.7% on 1.28x volume",
@@ -1620,11 +1750,15 @@
   "SMMT moved +15.1% on 1.2x volume",
   "WULF moved +12.8% on 2.14x volume",
   "BB moved +4.4% on 1.04x volume",
-  "AGNT moved -20.7% on 1.92x volume"
+  "AGNT moved -20.7% on 1.92x volume",
+  "U moved +5.5% on 2.04x volume",
+  "RVMD moved +8.2% on 2.09x volume",
+  "FROG moved +35.3% on 3.41x volume"
  ],
  "grouped_date": "2026-11-06",
+ "scan_note": "universe 329, candidates 3, ideas 3",
  "held_missing": [],
- "api_calls": 625,
+ "api_calls": 636,
  "held": [
   "PONY",
   "TGTX",
