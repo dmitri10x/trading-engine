@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-10T22:30:20.203932Z",
+ "mode": "premarket",
+ "as_of": "2026-11-11T00:33:14.834917Z",
  "market": {
   "SPY": {
    "close": 752.69,
@@ -8116,7 +8116,59 @@
    "last_date": "2026-11-09"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices",
+   "setup": "Volume surge",
+   "price": 508.58,
+   "entry": 508.58,
+   "stop": 446.98,
+   "target": 662.58,
+   "r_multiple": 2.5,
+   "mcap_b": 834.1,
+   "atr_pct": 8.07,
+   "rel_vol": 1.86,
+   "chg1": 13.26,
+   "dist_ma150_pct": 4.6,
+   "score": 3,
+   "note": "Volume surge; +13.3% on 1.86x vol; 4.6% above MA150; ATR 8.07%"
+  },
+  {
+   "symbol": "CEG",
+   "name": "Constellation Energy Corporation Common Stock",
+   "setup": "Volume surge",
+   "price": 276.09,
+   "entry": 276.09,
+   "stop": 255.44,
+   "target": 327.71,
+   "r_multiple": 2.5,
+   "mcap_b": 97.8,
+   "atr_pct": 4.99,
+   "rel_vol": 1.98,
+   "chg1": 10.46,
+   "dist_ma150_pct": 1.1,
+   "score": 3,
+   "note": "Volume surge; +10.5% on 1.98x vol; 1.1% above MA150; ATR 4.99%"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare, Inc. Class A common stock, par value $0.001 per share",
+   "setup": "Volume surge",
+   "price": 293.75,
+   "entry": 293.75,
+   "stop": 258.2,
+   "target": 382.62,
+   "r_multiple": 2.5,
+   "mcap_b": 105.3,
+   "atr_pct": 8.07,
+   "rel_vol": 1.55,
+   "chg1": 9.3,
+   "dist_ma150_pct": 8.8,
+   "score": 3,
+   "note": "Volume surge; +9.3% on 1.55x vol; 8.8% above MA150; ATR 8.07%"
+  }
+ ],
  "alerts": [
   "TGTX moved +5.9% on 2.98x volume",
   "ACHR moved +8.3% on 1.84x volume",
@@ -8241,6 +8293,7 @@
   "QXO moved +19.2% on 2.13x volume"
  ],
  "grouped_date": "2026-11-09",
+ "scan_note": "universe 327, candidates 5, ideas 3",
  "held_missing": [],
- "api_calls": 626
+ "api_calls": 631
 }
