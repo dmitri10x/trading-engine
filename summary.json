@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-12T22:51:02.440863Z",
+ "mode": "premarket",
+ "as_of": "2026-11-13T00:59:16.546788Z",
  "market": {
   "SPY": {
    "close": 759.81,
@@ -1602,9 +1602,51 @@
    "note": "Below MA150 (4.33). Rule broken: not a hold under the system.",
    "alerts": [],
    "last_date": "2026-11-11"
+  },
+  "TTWO": {
+   "close": 231.31,
+   "ma150": 223.05,
+   "ma150_full": true,
+   "ma20": 205.75,
+   "ma50": 207.36,
+   "atr": 9.29,
+   "atr_pct": 4.02,
+   "avg_vol": 3117863,
+   "rel_vol": 1.71,
+   "hi20": 237.41,
+   "hi52": 265.94,
+   "lo20": 183.86,
+   "chg1": 2.97,
+   "chg5": 10.73,
+   "above_ma150": true,
+   "dist_ma150_pct": 3.7,
+   "stop": 217.38,
+   "target": 259.17,
+   "status": "Hold",
+   "note": "3.7% above MA150, trend intact.",
+   "alerts": [],
+   "last_date": "2026-11-11"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two Interactive Software Inc",
+   "setup": "Volume surge",
+   "price": 231.31,
+   "entry": 231.31,
+   "stop": 217.38,
+   "target": 266.13,
+   "r_multiple": 2.5,
+   "mcap_b": 43.3,
+   "atr_pct": 4.02,
+   "rel_vol": 1.71,
+   "chg1": 2.97,
+   "dist_ma150_pct": 3.7,
+   "score": 3,
+   "note": "Volume surge; +3.0% on 1.71x vol; 3.7% above MA150; ATR 4.02%"
+  }
+ ],
  "alerts": [
   "TSM moved +4.3% on 0.95x volume",
   "ANET moved +6.3% on 1.0x volume",
@@ -1629,8 +1671,9 @@
   "BMNR moved +6.4% on 0.99x volume"
  ],
  "grouped_date": "2026-11-11",
+ "scan_note": "universe 327, candidates 1, ideas 1",
  "held_missing": [],
- "api_calls": 624,
+ "api_calls": 629,
  "held": [
   "PONY",
   "TGTX",
