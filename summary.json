@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-13T22:50:25.537702Z",
+ "mode": "premarket",
+ "as_of": "2026-11-14T00:50:39.589590Z",
  "market": {
   "SPY": {
    "close": 757.12,
@@ -1606,9 +1606,53 @@
     "moved -5.8% on 1.55x volume"
    ],
    "last_date": "2026-11-12"
+  },
+  "AMD": {
+   "close": 585.3,
+   "ma150": 492.49,
+   "ma150_full": true,
+   "ma20": 518.76,
+   "ma50": 552.99,
+   "atr": 44.61,
+   "atr_pct": 7.62,
+   "avg_vol": 32023389,
+   "rel_vol": 1.73,
+   "hi20": 594,
+   "hi52": 658.52,
+   "lo20": 402.1,
+   "chg1": 5.86,
+   "chg5": 44.73,
+   "above_ma150": true,
+   "dist_ma150_pct": 18.8,
+   "stop": 518.38,
+   "target": 719.14,
+   "status": "Hold",
+   "note": "18.8% above MA150, trend intact.",
+   "alerts": [
+    "moved +5.9% on 1.73x volume"
+   ],
+   "last_date": "2026-11-12"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices",
+   "setup": "Volume surge",
+   "price": 585.3,
+   "entry": 585.3,
+   "stop": 518.38,
+   "target": 752.6,
+   "r_multiple": 2.5,
+   "mcap_b": 959.9,
+   "atr_pct": 7.62,
+   "rel_vol": 1.73,
+   "chg1": 5.86,
+   "dist_ma150_pct": 18.8,
+   "score": 4,
+   "note": "Volume surge; +5.9% on 1.73x vol; 18.8% above MA150; ATR 7.62%"
+  }
+ ],
  "alerts": [
   "PONY moved -6.1% on 0.92x volume",
   "ACHR moved -10.9% on 1.01x volume",
@@ -1632,11 +1676,13 @@
   "AVGO moved +5.5% on 1.68x volume",
   "DJT moved -4.2% on 1.24x volume",
   "BMNR moved -4.1% on 0.75x volume",
-  "AGNT moved -5.8% on 1.55x volume"
+  "AGNT moved -5.8% on 1.55x volume",
+  "AMD moved +5.9% on 1.73x volume"
  ],
  "grouped_date": "2026-11-12",
+ "scan_note": "universe 330, candidates 2, ideas 1",
  "held_missing": [],
- "api_calls": 624,
+ "api_calls": 628,
  "held": [
   "PONY",
   "TGTX",
