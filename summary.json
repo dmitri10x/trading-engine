@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-11-19T01:49:59.835104Z",
+ "mode": "close",
+ "as_of": "2026-11-19T20:28:55.325673Z",
  "market": {
   "SPY": {
    "close": 730.2,
@@ -1540,94 +1540,9 @@
    "note": "Below MA150 (4.27). Rule broken: not a hold under the system.",
    "alerts": [],
    "last_date": "2026-11-18"
-  },
-  "MDLN": {
-   "close": 39.16,
-   "ma150": 37.42,
-   "ma150_full": true,
-   "ma20": 36.91,
-   "ma50": 35.49,
-   "atr": 2.1,
-   "atr_pct": 5.36,
-   "avg_vol": 10933076,
-   "rel_vol": 3.72,
-   "hi20": 42.5,
-   "hi52": 50.8762,
-   "lo20": 31.37,
-   "chg1": 3.93,
-   "chg5": -7.12,
-   "above_ma150": true,
-   "dist_ma150_pct": 4.7,
-   "stop": 36.01,
-   "target": 45.46,
-   "status": "Hold",
-   "note": "4.7% above MA150, trend intact.",
-   "alerts": [],
-   "last_date": "2026-11-18"
-  },
-  "VIK": {
-   "close": 100.37,
-   "ma150": 90.25,
-   "ma150_full": true,
-   "ma20": 88.38,
-   "ma50": 84.86,
-   "atr": 4.09,
-   "atr_pct": 4.08,
-   "avg_vol": 4195752,
-   "rel_vol": 2.36,
-   "hi20": 101.565,
-   "hi52": 110.09,
-   "lo20": 81.53,
-   "chg1": 6.46,
-   "chg5": 11.45,
-   "above_ma150": true,
-   "dist_ma150_pct": 11.2,
-   "stop": 94.23,
-   "target": 112.65,
-   "status": "Hold",
-   "note": "11.2% above MA150, trend intact.",
-   "alerts": [
-    "moved +6.5% on 2.36x volume"
-   ],
-   "last_date": "2026-11-18"
   }
  },
- "ideas": [
-  {
-   "symbol": "VIK",
-   "name": "Viking Holdings Ltd",
-   "setup": "Volume surge",
-   "price": 100.37,
-   "entry": 100.37,
-   "stop": 94.23,
-   "target": 115.72,
-   "r_multiple": 2.5,
-   "mcap_b": 41.7,
-   "atr_pct": 4.08,
-   "rel_vol": 2.36,
-   "chg1": 6.46,
-   "dist_ma150_pct": 11.2,
-   "score": 5,
-   "note": "Volume surge; +6.5% on 2.36x vol; 11.2% above MA150; ATR 4.08%"
-  },
-  {
-   "symbol": "MDLN",
-   "name": "Medline Inc. Class A common stock",
-   "setup": "Volume surge",
-   "price": 39.16,
-   "entry": 39.16,
-   "stop": 36.01,
-   "target": 47.03,
-   "r_multiple": 2.5,
-   "mcap_b": 33.1,
-   "atr_pct": 5.36,
-   "rel_vol": 3.72,
-   "chg1": 3.93,
-   "dist_ma150_pct": 4.7,
-   "score": 4,
-   "note": "Volume surge; +3.9% on 3.72x vol; 4.7% above MA150; ATR 5.36%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "PONY moved -7.3% on 3.4x volume",
   "TGTX moved +5.4% on 0.87x volume",
@@ -1642,13 +1557,11 @@
   "ACN moved -4.9% on 1.0x volume",
   "CVX moved -4.7% on 1.25x volume",
   "PANW moved +9.9% on 2.75x volume",
-  "BB moved +4.9% on 0.92x volume",
-  "VIK moved +6.5% on 2.36x volume"
+  "BB moved +4.9% on 0.92x volume"
  ],
  "grouped_date": "2026-11-18",
- "scan_note": "universe 329, candidates 3, ideas 2",
  "held_missing": [],
- "api_calls": 632,
+ "api_calls": 624,
  "held": [
   "PONY",
   "TGTX",
