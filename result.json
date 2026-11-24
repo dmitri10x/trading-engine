@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-11-24T04:41:33.984217Z",
+ "mode": "close",
+ "as_of": "2026-11-24T22:20:22.552754Z",
  "market": {
   "SPY": {
    "close": 722.29,
@@ -8258,42 +8258,7 @@
    "last_date": "2026-11-23"
   }
  },
- "ideas": [
-  {
-   "symbol": "KYMR",
-   "name": "Kymera Therapeutics, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 150.37,
-   "entry": 150.37,
-   "stop": 135.45,
-   "target": 187.67,
-   "r_multiple": 2.5,
-   "mcap_b": 9.8,
-   "atr_pct": 6.62,
-   "rel_vol": 7.69,
-   "chg1": 30.4,
-   "dist_ma150_pct": 41.2,
-   "score": 5,
-   "note": "Volume surge; +30.4% on 7.69x vol; 41.2% above MA150; ATR 6.62%"
-  },
-  {
-   "symbol": "ZS",
-   "name": "Zscaler, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 229.24,
-   "entry": 229.24,
-   "stop": 205.9,
-   "target": 287.59,
-   "r_multiple": 2.5,
-   "mcap_b": 31.8,
-   "atr_pct": 6.79,
-   "rel_vol": 8.18,
-   "chg1": 17.67,
-   "dist_ma150_pct": 32.6,
-   "score": 5,
-   "note": "Volume surge; +17.7% on 8.18x vol; 32.6% above MA150; ATR 6.79%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "ACHR moved +5.5% on 0.9x volume",
   "TSM moved +14.1% on 1.86x volume",
@@ -8465,7 +8430,6 @@
   "JEPQ moved +6.3% on 1.28x volume"
  ],
  "grouped_date": "2026-11-23",
- "scan_note": "universe 330, candidates 2, ideas 2",
  "held_missing": [],
- "api_calls": 627
+ "api_calls": 625
 }

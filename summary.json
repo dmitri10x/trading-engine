@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-11-24T04:41:33.984217Z",
+ "mode": "close",
+ "as_of": "2026-11-24T22:20:22.552754Z",
  "market": {
   "SPY": {
    "close": 722.29,
@@ -1594,96 +1594,9 @@
     "moved +8.2% on 1.11x volume"
    ],
    "last_date": "2026-11-23"
-  },
-  "ZS": {
-   "close": 229.24,
-   "ma150": 172.89,
-   "ma150_full": true,
-   "ma20": 212.68,
-   "ma50": 213.17,
-   "atr": 15.56,
-   "atr_pct": 6.79,
-   "avg_vol": 2352564,
-   "rel_vol": 8.18,
-   "hi20": 267.8706,
-   "hi52": 291.8,
-   "lo20": 180.47,
-   "chg1": 17.67,
-   "chg5": 20.12,
-   "above_ma150": true,
-   "dist_ma150_pct": 32.6,
-   "stop": 205.9,
-   "target": 275.92,
-   "status": "Hold",
-   "note": "32.6% above MA150, trend intact.",
-   "alerts": [
-    "moved +17.7% on 8.18x volume"
-   ],
-   "last_date": "2026-11-23"
-  },
-  "KYMR": {
-   "close": 150.37,
-   "ma150": 106.49,
-   "ma150_full": true,
-   "ma20": 127.93,
-   "ma50": 118.28,
-   "atr": 9.95,
-   "atr_pct": 6.62,
-   "avg_vol": 1023250,
-   "rel_vol": 7.69,
-   "hi20": 161.49,
-   "hi52": 161.49,
-   "lo20": 111.145,
-   "chg1": 30.4,
-   "chg5": 19.48,
-   "above_ma150": true,
-   "dist_ma150_pct": 41.2,
-   "stop": 135.45,
-   "target": 180.21,
-   "status": "Hold",
-   "note": "41.2% above MA150, trend intact.",
-   "alerts": [
-    "moved +30.4% on 7.69x volume"
-   ],
-   "last_date": "2026-11-23"
   }
  },
- "ideas": [
-  {
-   "symbol": "KYMR",
-   "name": "Kymera Therapeutics, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 150.37,
-   "entry": 150.37,
-   "stop": 135.45,
-   "target": 187.67,
-   "r_multiple": 2.5,
-   "mcap_b": 9.8,
-   "atr_pct": 6.62,
-   "rel_vol": 7.69,
-   "chg1": 30.4,
-   "dist_ma150_pct": 41.2,
-   "score": 5,
-   "note": "Volume surge; +30.4% on 7.69x vol; 41.2% above MA150; ATR 6.62%"
-  },
-  {
-   "symbol": "ZS",
-   "name": "Zscaler, Inc. Common Stock",
-   "setup": "Volume surge",
-   "price": 229.24,
-   "entry": 229.24,
-   "stop": 205.9,
-   "target": 287.59,
-   "r_multiple": 2.5,
-   "mcap_b": 31.8,
-   "atr_pct": 6.79,
-   "rel_vol": 8.18,
-   "chg1": 17.67,
-   "dist_ma150_pct": 32.6,
-   "score": 5,
-   "note": "Volume surge; +17.7% on 8.18x vol; 32.6% above MA150; ATR 6.79%"
-  }
- ],
+ "ideas": [],
  "alerts": [
   "ACHR moved +5.5% on 0.9x volume",
   "TSM moved +14.1% on 1.86x volume",
@@ -1725,14 +1638,11 @@
   "BB moved +7.7% on 0.74x volume",
   "DJT moved +4.2% on 0.62x volume",
   "BMNR moved +11.1% on 1.19x volume",
-  "AGNT moved +8.2% on 1.11x volume",
-  "ZS moved +17.7% on 8.18x volume",
-  "KYMR moved +30.4% on 7.69x volume"
+  "AGNT moved +8.2% on 1.11x volume"
  ],
  "grouped_date": "2026-11-23",
- "scan_note": "universe 330, candidates 2, ideas 2",
  "held_missing": [],
- "api_calls": 627,
+ "api_calls": 625,
  "held": [
   "PONY",
   "TGTX",
