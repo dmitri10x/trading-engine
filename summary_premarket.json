@@ -1,6 +1,6 @@
 {
  "mode": "premarket",
- "as_of": "2026-11-24T03:27:21.618903Z",
+ "as_of": "2026-11-24T04:41:33.984217Z",
  "market": {
   "SPY": {
    "close": 722.29,
@@ -1604,7 +1604,7 @@
    "atr": 15.56,
    "atr_pct": 6.79,
    "avg_vol": 2352564,
-   "rel_vol": 8.19,
+   "rel_vol": 8.18,
    "hi20": 267.8706,
    "hi52": 291.8,
    "lo20": 180.47,
@@ -1617,7 +1617,7 @@
    "status": "Hold",
    "note": "32.6% above MA150, trend intact.",
    "alerts": [
-    "moved +17.7% on 8.19x volume"
+    "moved +17.7% on 8.18x volume"
    ],
    "last_date": "2026-11-23"
   },
@@ -1677,11 +1677,11 @@
    "r_multiple": 2.5,
    "mcap_b": 31.8,
    "atr_pct": 6.79,
-   "rel_vol": 8.19,
+   "rel_vol": 8.18,
    "chg1": 17.67,
    "dist_ma150_pct": 32.6,
    "score": 5,
-   "note": "Volume surge; +17.7% on 8.19x vol; 32.6% above MA150; ATR 6.79%"
+   "note": "Volume surge; +17.7% on 8.18x vol; 32.6% above MA150; ATR 6.79%"
   }
  ],
  "alerts": [
@@ -1726,13 +1726,13 @@
   "DJT moved +4.2% on 0.62x volume",
   "BMNR moved +11.1% on 1.19x volume",
   "AGNT moved +8.2% on 1.11x volume",
-  "ZS moved +17.7% on 8.19x volume",
+  "ZS moved +17.7% on 8.18x volume",
   "KYMR moved +30.4% on 7.69x volume"
  ],
  "grouped_date": "2026-11-23",
  "scan_note": "universe 330, candidates 2, ideas 2",
  "held_missing": [],
- "api_calls": 628,
+ "api_calls": 627,
  "held": [
   "PONY",
   "TGTX",

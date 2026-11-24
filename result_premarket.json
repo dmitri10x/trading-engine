@@ -1,6 +1,6 @@
 {
  "mode": "premarket",
- "as_of": "2026-11-24T03:27:21.618903Z",
+ "as_of": "2026-11-24T04:41:33.984217Z",
  "market": {
   "SPY": {
    "close": 722.29,
@@ -1630,7 +1630,7 @@
    "atr": 24.1,
    "atr_pct": 3.7,
    "avg_vol": 57131674,
-   "rel_vol": 1.5,
+   "rel_vol": 1.49,
    "hi20": 726.14,
    "hi52": 762.86,
    "lo20": 606.2293,
@@ -1643,7 +1643,7 @@
    "status": "Exit",
    "note": "Below MA150 (709.76). Rule broken: not a hold under the system.",
    "alerts": [
-    "moved +7.0% on 1.5x volume"
+    "moved +7.0% on 1.49x volume"
    ],
    "last_date": "2026-11-23"
   },
@@ -2094,7 +2094,7 @@
    "atr": 7.01,
    "atr_pct": 14.51,
    "avg_vol": 69906883,
-   "rel_vol": 1.37,
+   "rel_vol": 1.36,
    "hi20": 64.39,
    "hi52": 138.25,
    "lo20": 39.28,
@@ -2107,7 +2107,7 @@
    "status": "Exit",
    "note": "Below MA150 (87.19). Rule broken: not a hold under the system.",
    "alerts": [
-    "moved +22.3% on 1.37x volume"
+    "moved +22.3% on 1.36x volume"
    ],
    "last_date": "2026-11-23"
   },
@@ -2146,7 +2146,7 @@
    "atr": 15.56,
    "atr_pct": 6.79,
    "avg_vol": 2352564,
-   "rel_vol": 8.19,
+   "rel_vol": 8.18,
    "hi20": 267.8706,
    "hi52": 291.8,
    "lo20": 180.47,
@@ -2159,7 +2159,7 @@
    "status": "Hold",
    "note": "32.6% above MA150, trend intact.",
    "alerts": [
-    "moved +17.7% on 8.19x volume"
+    "moved +17.7% on 8.18x volume"
    ],
    "last_date": "2026-11-23"
   },
@@ -2370,7 +2370,7 @@
    "atr": 7.83,
    "atr_pct": 4.82,
    "avg_vol": 15237249,
-   "rel_vol": 1.57,
+   "rel_vol": 1.56,
    "hi20": 191.55,
    "hi52": 203.25,
    "lo20": 148.09,
@@ -2383,7 +2383,7 @@
    "status": "Exit",
    "note": "Below MA150 (181.78). Rule broken: not a hold under the system.",
    "alerts": [
-    "moved +9.0% on 1.57x volume"
+    "moved +9.0% on 1.56x volume"
    ],
    "last_date": "2026-11-23"
   },
@@ -2950,7 +2950,7 @@
    "atr": 3.83,
    "atr_pct": 9.68,
    "avg_vol": 44008215,
-   "rel_vol": 1.53,
+   "rel_vol": 1.52,
    "hi20": 54.12,
    "hi52": 81.34,
    "lo20": 33.32,
@@ -2963,7 +2963,7 @@
    "status": "Exit",
    "note": "Below MA150 (54.77). Rule broken: not a hold under the system.",
    "alerts": [
-    "moved +18.6% on 1.53x volume"
+    "moved +18.6% on 1.52x volume"
    ],
    "last_date": "2026-11-23"
   },
@@ -3608,7 +3608,7 @@
    "atr": 3.48,
    "atr_pct": 2.05,
    "avg_vol": 9674854,
-   "rel_vol": 1.05,
+   "rel_vol": 1.06,
    "hi20": 173.59,
    "hi52": 173.59,
    "lo20": 157.4,
@@ -3880,7 +3880,7 @@
    "atr": 2.7,
    "atr_pct": 11.0,
    "avg_vol": 46521709,
-   "rel_vol": 1.35,
+   "rel_vol": 1.34,
    "hi20": 36.4,
    "hi52": 51.4,
    "lo20": 21.465,
@@ -3893,7 +3893,7 @@
    "status": "Exit",
    "note": "Below MA150 (33.64). Rule broken: not a hold under the system.",
    "alerts": [
-    "moved +13.3% on 1.35x volume"
+    "moved +13.3% on 1.34x volume"
    ],
    "last_date": "2026-11-23"
   },
@@ -3973,32 +3973,6 @@
    ],
    "last_date": "2026-11-23"
   },
-  "NOW": {
-   "close": 91.72,
-   "ma150": 115.76,
-   "ma150_full": true,
-   "ma20": 105.36,
-   "ma50": 126.87,
-   "atr": 4.7,
-   "atr_pct": 5.12,
-   "avg_vol": 21573407,
-   "rel_vol": 0.73,
-   "hi20": 157.125,
-   "hi52": 175,
-   "lo20": 87.335,
-   "chg1": 4.69,
-   "chg5": -7.7,
-   "above_ma150": false,
-   "dist_ma150_pct": -20.8,
-   "stop": 84.67,
-   "target": 157.12,
-   "status": "Exit",
-   "note": "Below MA150 (115.76). Rule broken: not a hold under the system.",
-   "alerts": [
-    "moved +4.7% on 0.73x volume"
-   ],
-   "last_date": "2026-11-23"
-  },
   "MCHP": {
    "close": 61.22,
    "ma150": 81.34,
@@ -4022,6 +3996,32 @@
    "note": "Below MA150 (81.34). Rule broken: not a hold under the system.",
    "alerts": [
     "moved +10.4% on 1.34x volume"
+   ],
+   "last_date": "2026-11-23"
+  },
+  "NOW": {
+   "close": 91.72,
+   "ma150": 115.76,
+   "ma150_full": true,
+   "ma20": 105.36,
+   "ma50": 126.87,
+   "atr": 4.7,
+   "atr_pct": 5.12,
+   "avg_vol": 21573407,
+   "rel_vol": 0.73,
+   "hi20": 157.125,
+   "hi52": 175,
+   "lo20": 87.335,
+   "chg1": 4.69,
+   "chg5": -7.7,
+   "above_ma150": false,
+   "dist_ma150_pct": -20.8,
+   "stop": 84.67,
+   "target": 157.12,
+   "status": "Exit",
+   "note": "Below MA150 (115.76). Rule broken: not a hold under the system.",
+   "alerts": [
+    "moved +4.7% on 0.73x volume"
    ],
    "last_date": "2026-11-23"
   },
@@ -4072,30 +4072,6 @@
    "target": 174.3,
    "status": "Exit",
    "note": "Below MA150 (173.8). Rule broken: not a hold under the system.",
-   "alerts": [],
-   "last_date": "2026-11-23"
-  },
-  "MUB": {
-   "close": 103.74,
-   "ma150": 105.1,
-   "ma150_full": true,
-   "ma20": 103.97,
-   "ma50": 102.75,
-   "atr": 0.52,
-   "atr_pct": 0.5,
-   "avg_vol": 9378163,
-   "rel_vol": 1.4,
-   "hi20": 105.2,
-   "hi52": 109,
-   "lo20": 102.98,
-   "chg1": 0.22,
-   "chg5": 0.2,
-   "above_ma150": false,
-   "dist_ma150_pct": -1.3,
-   "stop": 102.96,
-   "target": 105.3,
-   "status": "Exit",
-   "note": "Below MA150 (105.1). Rule broken: not a hold under the system.",
    "alerts": [],
    "last_date": "2026-11-23"
   },
@@ -4194,6 +4170,30 @@
    "target": 355.8,
    "status": "Exit",
    "note": "Below MA150 (328.46). Rule broken: not a hold under the system.",
+   "alerts": [],
+   "last_date": "2026-11-23"
+  },
+  "MUB": {
+   "close": 103.74,
+   "ma150": 105.1,
+   "ma150_full": true,
+   "ma20": 103.97,
+   "ma50": 102.75,
+   "atr": 0.52,
+   "atr_pct": 0.5,
+   "avg_vol": 9378163,
+   "rel_vol": 1.4,
+   "hi20": 105.2,
+   "hi52": 109,
+   "lo20": 102.98,
+   "chg1": 0.22,
+   "chg5": 0.2,
+   "above_ma150": false,
+   "dist_ma150_pct": -1.3,
+   "stop": 102.96,
+   "target": 105.3,
+   "status": "Exit",
+   "note": "Below MA150 (105.1). Rule broken: not a hold under the system.",
    "alerts": [],
    "last_date": "2026-11-23"
   },
@@ -5071,30 +5071,6 @@
    "alerts": [],
    "last_date": "2026-11-23"
   },
-  "VTEB": {
-   "close": 48.67,
-   "ma150": 49.36,
-   "ma150_full": true,
-   "ma20": 48.79,
-   "ma50": 48.18,
-   "atr": 0.22,
-   "atr_pct": 0.46,
-   "avg_vol": 15195576,
-   "rel_vol": 1.42,
-   "hi20": 49.36,
-   "hi52": 51.18,
-   "lo20": 48.36,
-   "chg1": 0.16,
-   "chg5": 0.12,
-   "above_ma150": false,
-   "dist_ma150_pct": -1.4,
-   "stop": 48.34,
-   "target": 49.36,
-   "status": "Exit",
-   "note": "Below MA150 (49.36). Rule broken: not a hold under the system.",
-   "alerts": [],
-   "last_date": "2026-11-23"
-  },
   "IBM": {
    "close": 233,
    "ma150": 243.18,
@@ -5116,6 +5092,30 @@
    "target": 259.87,
    "status": "Exit",
    "note": "Below MA150 (243.18). Rule broken: not a hold under the system.",
+   "alerts": [],
+   "last_date": "2026-11-23"
+  },
+  "VTEB": {
+   "close": 48.67,
+   "ma150": 49.36,
+   "ma150_full": true,
+   "ma20": 48.79,
+   "ma50": 48.18,
+   "atr": 0.22,
+   "atr_pct": 0.46,
+   "avg_vol": 15195576,
+   "rel_vol": 1.42,
+   "hi20": 49.36,
+   "hi52": 51.18,
+   "lo20": 48.36,
+   "chg1": 0.16,
+   "chg5": 0.12,
+   "above_ma150": false,
+   "dist_ma150_pct": -1.4,
+   "stop": 48.34,
+   "target": 49.36,
+   "status": "Exit",
+   "note": "Below MA150 (49.36). Rule broken: not a hold under the system.",
    "alerts": [],
    "last_date": "2026-11-23"
   },
@@ -7633,6 +7633,30 @@
    "alerts": [],
    "last_date": "2026-11-23"
   },
+  "BMY": {
+   "close": 59.84,
+   "ma150": 60.62,
+   "ma150_full": true,
+   "ma20": 61.73,
+   "ma50": 61.37,
+   "atr": 1.88,
+   "atr_pct": 3.14,
+   "avg_vol": 10349938,
+   "rel_vol": 1.02,
+   "hi20": 65.54,
+   "hi52": 68.64,
+   "lo20": 57.878,
+   "chg1": 1.77,
+   "chg5": -4.91,
+   "above_ma150": false,
+   "dist_ma150_pct": -1.3,
+   "stop": 57.02,
+   "target": 65.54,
+   "status": "Exit",
+   "note": "Below MA150 (60.62). Rule broken: not a hold under the system.",
+   "alerts": [],
+   "last_date": "2026-11-23"
+  },
   "SMTC": {
    "close": 104.13,
    "ma150": 140.92,
@@ -7657,30 +7681,6 @@
    "alerts": [
     "moved +18.8% on 1.94x volume"
    ],
-   "last_date": "2026-11-23"
-  },
-  "BMY": {
-   "close": 59.84,
-   "ma150": 60.62,
-   "ma150_full": true,
-   "ma20": 61.73,
-   "ma50": 61.37,
-   "atr": 1.88,
-   "atr_pct": 3.14,
-   "avg_vol": 10349938,
-   "rel_vol": 1.02,
-   "hi20": 65.54,
-   "hi52": 68.64,
-   "lo20": 57.878,
-   "chg1": 1.77,
-   "chg5": -4.91,
-   "above_ma150": false,
-   "dist_ma150_pct": -1.3,
-   "stop": 57.02,
-   "target": 65.54,
-   "status": "Exit",
-   "note": "Below MA150 (60.62). Rule broken: not a hold under the system.",
-   "alerts": [],
    "last_date": "2026-11-23"
   },
   "HUM": {
@@ -8287,11 +8287,11 @@
    "r_multiple": 2.5,
    "mcap_b": 31.8,
    "atr_pct": 6.79,
-   "rel_vol": 8.19,
+   "rel_vol": 8.18,
    "chg1": 17.67,
    "dist_ma150_pct": 32.6,
    "score": 5,
-   "note": "Volume surge; +17.7% on 8.19x vol; 32.6% above MA150; ATR 6.79%"
+   "note": "Volume surge; +17.7% on 8.18x vol; 32.6% above MA150; ATR 6.79%"
   }
  ],
  "alerts": [
@@ -8337,7 +8337,7 @@
   "BMNR moved +11.1% on 1.19x volume",
   "AGNT moved +8.2% on 1.11x volume",
   "SPY moved +4.7% on 1.51x volume",
-  "QQQ moved +7.0% on 1.5x volume",
+  "QQQ moved +7.0% on 1.49x volume",
   "AMD moved +6.8% on 1.28x volume",
   "SOXL moved +39.9% on 1.73x volume",
   "GOOGL moved +6.3% on 0.98x volume",
@@ -8353,13 +8353,13 @@
   "MRVL moved +18.4% on 1.12x volume",
   "PLTR moved +11.1% on 1.28x volume",
   "NBIS moved +20.3% on 1.67x volume",
-  "CRWV moved +22.3% on 1.37x volume",
+  "CRWV moved +22.3% on 1.36x volume",
   "SKHY moved +20.0% on 1.45x volume",
-  "ZS moved +17.7% on 8.19x volume",
+  "ZS moved +17.7% on 8.18x volume",
   "AMAT moved +14.6% on 1.46x volume",
   "SQQQ moved -20.2% on 1.46x volume",
   "EWY moved +10.1% on 1.7x volume",
-  "XLK moved +9.0% on 1.57x volume",
+  "XLK moved +9.0% on 1.56x volume",
   "BE moved +18.1% on 1.27x volume",
   "LRCX moved +14.5% on 1.26x volume",
   "TXN moved +10.4% on 1.38x volume",
@@ -8373,7 +8373,7 @@
   "STX moved +13.8% on 0.87x volume",
   "GDX moved +6.4% on 1.35x volume",
   "CSCO moved +6.8% on 1.23x volume",
-  "DRAM moved +18.6% on 1.53x volume",
+  "DRAM moved +18.6% on 1.52x volume",
   "IBIT moved +4.8% on 1.48x volume",
   "NVDL moved +61.7% on 3.93x volume",
   "KLAC moved +15.0% on 1.17x volume",
@@ -8394,11 +8394,11 @@
   "APP moved +7.4% on 0.7x volume",
   "NXPI moved +8.9% on 1.06x volume",
   "IEMG moved +7.2% on 1.31x volume",
-  "SMCI moved +13.3% on 1.35x volume",
+  "SMCI moved +13.3% on 1.34x volume",
   "CBRS moved +19.2% on 1.1x volume",
   "BABA moved +6.1% on 1.34x volume",
-  "NOW moved +4.7% on 0.73x volume",
   "MCHP moved +10.4% on 1.34x volume",
+  "NOW moved +4.7% on 0.73x volume",
   "ARM moved +16.1% on 1.29x volume",
   "MS moved +4.2% on 1.26x volume",
   "CEG moved +6.0% on 1.33x volume",
@@ -8467,5 +8467,5 @@
  "grouped_date": "2026-11-23",
  "scan_note": "universe 330, candidates 2, ideas 2",
  "held_missing": [],
- "api_calls": 628
+ "api_calls": 627
 }
