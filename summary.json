@@ -1,6 +1,6 @@
 {
- "mode": "premarket",
- "as_of": "2026-11-21T01:20:42.878856Z",
+ "mode": "close",
+ "as_of": "2026-11-23T23:48:19.940674Z",
  "market": {
   "SPY": {
    "close": 689.81,
@@ -136,7 +136,7 @@
    "atr": 12.84,
    "atr_pct": 10.23,
    "avg_vol": 259982126,
-   "rel_vol": 2.45,
+   "rel_vol": 2.44,
    "hi20": 219.99,
    "hi52": 243.37,
    "lo20": 124.5,
@@ -149,7 +149,7 @@
    "status": "Exit",
    "note": "Below MA150 (209.83). Rule broken: not a hold under the system.",
    "alerts": [
-    "moved -14.0% on 2.45x volume"
+    "moved -14.0% on 2.44x volume"
    ],
    "last_date": "2026-11-20"
   },
@@ -290,7 +290,7 @@
    "atr": 9.37,
    "atr_pct": 2.73,
    "avg_vol": 47701270,
-   "rel_vol": 1.7,
+   "rel_vol": 1.69,
    "hi20": 360.83,
    "hi52": 360.83,
    "lo20": 325.33,
@@ -1130,7 +1130,7 @@
    "atr": 5.1,
    "atr_pct": 8.2,
    "avg_vol": 20613157,
-   "rel_vol": 1.38,
+   "rel_vol": 1.37,
    "hi20": 96.71,
    "hi52": 139.75,
    "lo20": 61.75,
@@ -1143,7 +1143,7 @@
    "status": "Exit",
    "note": "Below MA150 (95.99). Rule broken: not a hold under the system.",
    "alerts": [
-    "moved -9.4% on 1.38x volume"
+    "moved -9.4% on 1.37x volume"
    ],
    "last_date": "2026-11-20"
   },
@@ -1386,7 +1386,7 @@
    "atr": 20.87,
    "atr_pct": 1.89,
    "avg_vol": 2470196,
-   "rel_vol": 1.68,
+   "rel_vol": 1.67,
    "hi20": 1123.6699,
    "hi52": 1123.6699,
    "lo20": 980.315,
@@ -1540,7 +1540,7 @@
    "atr": 0.85,
    "atr_pct": 1.86,
    "avg_vol": 8690285,
-   "rel_vol": 1.18,
+   "rel_vol": 1.17,
    "hi20": 47.09,
    "hi52": 50.65,
    "lo20": 44.14,
@@ -1611,7 +1611,7 @@
   "PONY moved -6.0% on 1.15x volume",
   "ACHR moved -9.1% on 1.39x volume",
   "TSM moved -9.5% on 2.39x volume",
-  "NVDA moved -14.0% on 2.45x volume",
+  "NVDA moved -14.0% on 2.44x volume",
   "CCJ moved -5.6% on 1.23x volume",
   "AMZN moved -4.1% on 1.47x volume",
   "ANET moved -11.6% on 1.6x volume",
@@ -1640,7 +1640,7 @@
   "CORZ moved -15.2% on 1.26x volume",
   "DELL moved -11.0% on 1.69x volume",
   "NNE moved -8.7% on 1.31x volume",
-  "HOOD moved -9.4% on 1.38x volume",
+  "HOOD moved -9.4% on 1.37x volume",
   "VICR moved -11.6% on 1.08x volume",
   "COIN moved -6.3% on 1.61x volume",
   "NVTS moved -15.2% on 1.31x volume",
@@ -1656,9 +1656,8 @@
   "BMNR moved -13.9% on 1.85x volume"
  ],
  "grouped_date": "2026-11-20",
- "scan_note": "universe 329, candidates 6, ideas 0",
  "held_missing": [],
- "api_calls": 633,
+ "api_calls": 627,
  "held": [
   "PONY",
   "TGTX",
