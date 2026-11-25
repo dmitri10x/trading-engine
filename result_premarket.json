@@ -1,6 +1,6 @@
 {
  "mode": "premarket",
- "as_of": "2026-11-25T01:34:21.280571Z",
+ "as_of": "2026-11-25T03:29:30.857379Z",
  "market": {
   "SPY": {
    "close": 718.78,
@@ -4532,7 +4532,7 @@
    "atr": 0.82,
    "atr_pct": 2.8,
    "avg_vol": 44486278,
-   "rel_vol": 0.76,
+   "rel_vol": 0.75,
    "hi20": 34.31,
    "hi52": 43.9,
    "lo20": 28.455,
@@ -4582,7 +4582,7 @@
    "atr": 4.09,
    "atr_pct": 4.82,
    "avg_vol": 13125918,
-   "rel_vol": 0.89,
+   "rel_vol": 0.88,
    "hi20": 111.17,
    "hi52": 181.1,
    "lo20": 80.96,
@@ -4922,7 +4922,7 @@
    "atr": 18.27,
    "atr_pct": 11.31,
    "avg_vol": 6432194,
-   "rel_vol": 0.87,
+   "rel_vol": 0.88,
    "hi20": 237.88,
    "hi52": 452.7,
    "lo20": 150.37,
@@ -4935,7 +4935,7 @@
    "status": "Exit",
    "note": "Below MA150 (267.31). Rule broken: not a hold under the system.",
    "alerts": [
-    "moved -8.6% on 0.87x volume"
+    "moved -8.6% on 0.88x volume"
    ],
    "last_date": "2026-11-24"
   },
@@ -7504,7 +7504,7 @@
    "atr": 27.17,
    "atr_pct": 8.51,
    "avg_vol": 1748980,
-   "rel_vol": 1.02,
+   "rel_vol": 1.01,
    "hi20": 439.76,
    "hi52": 665.065,
    "lo20": 289.685,
@@ -7966,7 +7966,7 @@
    "atr": 6.76,
    "atr_pct": 2.19,
    "avg_vol": 1960529,
-   "rel_vol": 0.87,
+   "rel_vol": 0.85,
    "hi20": 321.39,
    "hi52": 329.16,
    "lo20": 291.37,
@@ -8270,7 +8270,7 @@
   "NVDL moved -11.8% on 1.45x volume",
   "DLTR moved +11.2% on 2.76x volume",
   "TER moved -8.7% on 0.93x volume",
-  "ARM moved -8.6% on 0.87x volume",
+  "ARM moved -8.6% on 0.88x volume",
   "CBRS moved -9.9% on 0.72x volume",
   "SMCI moved -7.8% on 0.81x volume",
   "DKS moved +14.6% on 2.92x volume",
@@ -8296,5 +8296,5 @@
  "grouped_date": "2026-11-24",
  "scan_note": "universe 329, candidates 7, ideas 5",
  "held_missing": [],
- "api_calls": 628
+ "api_calls": 632
 }
