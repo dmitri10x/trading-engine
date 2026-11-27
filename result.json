@@ -1,6 +1,6 @@
 {
  "mode": "premarket",
- "as_of": "2026-11-27T01:08:24.774572Z",
+ "as_of": "2026-11-27T02:44:52.913939Z",
  "market": {
   "SPY": {
    "close": 716.7,
@@ -7976,5 +7976,5 @@
  "grouped_date": "2026-11-25",
  "scan_note": "universe 328, candidates 1, ideas 1",
  "held_missing": [],
- "api_calls": 627
+ "api_calls": 631
 }
