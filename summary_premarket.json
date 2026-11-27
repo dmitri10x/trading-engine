@@ -1,6 +1,6 @@
 {
  "mode": "premarket",
- "as_of": "2026-11-26T02:44:11.001484Z",
+ "as_of": "2026-11-27T01:08:24.774572Z",
  "market": {
   "SPY": {
    "close": 716.7,
@@ -520,7 +520,7 @@
    "atr": 9.16,
    "atr_pct": 9.13,
    "avg_vol": 10571451,
-   "rel_vol": 0.88,
+   "rel_vol": 0.85,
    "hi20": 132.58,
    "hi52": 271.78,
    "lo20": 92.78,
@@ -910,7 +910,7 @@
    "atr": 5.0,
    "atr_pct": 3.73,
    "avg_vol": 2306154,
-   "rel_vol": 1.24,
+   "rel_vol": 1.22,
    "hi20": 141.91,
    "hi52": 181.19,
    "lo20": 122.35,
@@ -1588,7 +1588,7 @@
    "stop": 14.34,
    "target": 18.18,
    "r_multiple": 3.0,
-   "mcap_b": 40.4,
+   "mcap_b": 43.4,
    "atr_pct": 4.2,
    "rel_vol": 1.63,
    "chg1": 7.37,
@@ -1610,7 +1610,7 @@
  "grouped_date": "2026-11-25",
  "scan_note": "universe 328, candidates 1, ideas 1",
  "held_missing": [],
- "api_calls": 624,
+ "api_calls": 627,
  "held": [
   "PONY",
   "TGTX",

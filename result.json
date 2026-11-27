@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-26T21:26:09.935135Z",
+ "mode": "premarket",
+ "as_of": "2026-11-27T01:08:24.774572Z",
  "market": {
   "SPY": {
    "close": 716.7,
@@ -7926,7 +7926,25 @@
    "last_date": "2026-11-25"
   }
  },
- "ideas": [],
+ "ideas": [
+  {
+   "symbol": "RKT",
+   "name": "Rocket Companies, Inc.",
+   "setup": "Breakout",
+   "price": 15.3,
+   "entry": 15.3,
+   "stop": 14.34,
+   "target": 18.18,
+   "r_multiple": 3.0,
+   "mcap_b": 43.4,
+   "atr_pct": 4.2,
+   "rel_vol": 1.63,
+   "chg1": 7.37,
+   "dist_ma150_pct": 13.0,
+   "score": 4,
+   "note": "Breakout; +7.4% on 1.63x vol; 13.0% above MA150; ATR 4.2%"
+  }
+ ],
  "alerts": [
   "ACHR moved +5.6% on 1.22x volume",
   "ASTS moved +10.3% on 1.39x volume",
@@ -7956,6 +7974,7 @@
   "SNY moved +4.8% on 1.94x volume"
  ],
  "grouped_date": "2026-11-25",
+ "scan_note": "universe 328, candidates 1, ideas 1",
  "held_missing": [],
- "api_calls": 623
+ "api_calls": 627
 }
