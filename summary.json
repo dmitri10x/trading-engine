@@ -1,6 +1,6 @@
 {
- "mode": "close",
- "as_of": "2026-11-27T21:09:03.964937Z",
+ "mode": "premarket",
+ "as_of": "2026-11-28T00:40:18.100118Z",
  "market": {
   "SPY": {
    "close": 716.7,
@@ -1563,8 +1563,9 @@
   "NVTS moved +4.5% on 1.16x volume"
  ],
  "grouped_date": "2026-11-25",
+ "scan_note": "universe 328, candidates 0, ideas 0",
  "held_missing": [],
- "api_calls": 628,
+ "api_calls": 635,
  "held": [
   "PONY",
   "TGTX",
